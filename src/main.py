@@ -5,7 +5,9 @@ main.py
 El modulo principal de la aplicacion, punto de entrada.
 """
 
-import sys
+import os
+
+from src.utils.path import Path
 
 
 def main() -> None:
@@ -14,10 +16,16 @@ def main() -> None:
     Es responsable de la logica de entrada y de la absorción de los argumentos
     pasados por linea de comando.
     """
-    print("Configuracion inicial del proyecto")
+    # positional_args = sys.argv
+
+    # if len(positional_args) <= 1:
+    #     sys.exit("No se ha enviado ningun directorio para chequear")
+
+    path = Path()
+    direct = os.path.abspath(".")
+    print(direct)
+    print(path.check_directorio(direct))
 
 
 if __name__ == "__main__":
-    if len(sys.argv) <= 1:
-        sys.exit("No has enviado parametros")
     main()

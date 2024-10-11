@@ -6,10 +6,19 @@
 tpo_grupo5 documentation
 ========================
 
-.. automodule:: src.main
-   :undoc-members:
-   :show-inheritance:
+Documentacion oficial del proyecto para Programacion Aplicada
+del IFTS 18
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contenido:
+
+   main
+   utils/index
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

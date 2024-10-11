@@ -5,7 +5,7 @@ format:
 	flake8
 	pre-commit run --all-files
 
-.PHONY:build
+.PHONY: build
 build:
 	python -m build
 	pip install -e .
