@@ -26,13 +26,17 @@ Una vez activado, descarga las dependencias principales del proyecto haciendo.
 
 ## Correr el proyecto
 Una vez instaladas las dependencias del proyecto, puedes hacer un simple:
+
     python -m build
 
 Esto te creara todos los links para poder ejecutar de manera mas sencilla el proyecto. Solo te falta instalar el proyecto:
+
     pip install -e .
 
 Con esto podrás ejecutar el siguiente comando:
+
     tpo5
 
 Y el resultado actual debería ser la impresion de una cadena diciendo lo siguiente:
+
     "Configuracion inicial para el proyecto"
