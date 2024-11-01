@@ -6,3 +6,4 @@ Utils
 
    path
    static_checker
+   errors

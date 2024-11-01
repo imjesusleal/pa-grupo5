@@ -1,30 +1,24 @@
 """
 main.py
 =======================
-
 El modulo principal de la aplicacion, punto de entrada.
 """
 
-import os
+# from PIL import Image
 
-from src.utils.path import Path
+# from src.utils.path import Path
+from .parser.parser import Parser
 
 
 def main() -> None:
     """
     Funcion principal y punto de entrada para el programa.
-    Es responsable de la logica de entrada y de la absorción de los argumentos
-    pasados por linea de comando.
+    Es responsable de la logica de entrada y de solicitar el directorio
+    con imagenes para procesar.
     """
-    # positional_args = sys.argv
 
-    # if len(positional_args) <= 1:
-    #     sys.exit("No se ha enviado ningun directorio para chequear")
-
-    path = Path()
-    direct = os.path.abspath(".")
-    print(direct)
-    print(path.check_directorio(direct))
+    parser = Parser()
+    parser.run()
 
 
 if __name__ == "__main__":

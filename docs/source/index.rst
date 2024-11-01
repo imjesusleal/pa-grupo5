@@ -15,6 +15,9 @@ del IFTS 18
 
    main
    utils/index
+   processor/index
+   images/index
+   parser/index
 
 Indices and tables
 ==================
