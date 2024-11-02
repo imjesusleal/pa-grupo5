@@ -60,6 +60,7 @@ class Parser(IParser):
         return parser.parse_args()
 
     def run(self):
+        self.__path = Path(self.args.dir_imagen)
         if self.args.check_dir:
             self.__path = Path(self.args.dir_imagen)
             print(self.__path.path)

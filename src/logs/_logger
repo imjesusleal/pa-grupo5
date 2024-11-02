@@ -499,3 +499,943 @@
 2024-11-02 09:27:09,496 - _logger - INFO - ThreadPoolExecutor tardo 9.44 segundos.
 2024-11-02 09:27:09,497 - _logger - INFO - ProcessPoolExecutor tardo 8.60 segundos.
 2024-11-02 09:27:09,498 - _logger - INFO - Comparación completada. Threads: 9.44s vs Procesos: 8.60s
+2024-11-02 15:36:48,929 - _logger - INFO - ThreadPoolExecutor tardo 0.00 segundos.
+2024-11-02 15:36:48,929 - _logger - INFO - ProcessPoolExecutor tardo 0.00 segundos.
+2024-11-02 15:36:48,930 - _logger - INFO - Comparación completada. Threads: 0.00s vs Procesos: 0.00s
+2024-11-02 15:38:58,107 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia - copia.jpg -> .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 15:38:58,107 - _logger - INFO - Imagen procesada .\img1 - copia (2).jpg -> .\output\img1 - copia (2).jpg
+2024-11-02 15:38:58,123 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia - copia.jpg hacia .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 15:38:58,123 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia.jpg -> .\output\img1 - copia (2) - copia.jpg
+2024-11-02 15:38:58,139 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia - copia.jpg -> .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 15:38:58,140 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2).jpg hacia .\output\img1 - copia (2).jpg
+2024-11-02 15:38:58,171 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia.jpg hacia .\output\img1 - copia (2) - copia.jpg
+2024-11-02 15:38:58,180 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia - copia.jpg hacia .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 15:38:58,696 - _logger - INFO - Imagen procesada .\img1 - copia (3).jpg -> .\output\img1 - copia (3).jpg
+2024-11-02 15:38:58,708 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3).jpg hacia .\output\img1 - copia (3).jpg
+2024-11-02 15:38:58,708 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia.jpg -> .\output\img1 - copia (3) - copia.jpg
+2024-11-02 15:38:58,722 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia.jpg hacia .\output\img1 - copia (3) - copia.jpg
+2024-11-02 15:38:58,722 - _logger - INFO - Imagen procesada .\img1 - copia (4).jpg -> .\output\img1 - copia (4).jpg
+2024-11-02 15:38:58,722 - _logger - INFO - Imagen procesada .\img1 - copia (4) - copia.jpg -> .\output\img1 - copia (4) - copia.jpg
+2024-11-02 15:38:58,758 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4).jpg hacia .\output\img1 - copia (4).jpg
+2024-11-02 15:38:58,761 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4) - copia.jpg hacia .\output\img1 - copia (4) - copia.jpg
+2024-11-02 15:38:59,276 - _logger - INFO - Imagen procesada .\img1 - copia (5) - copia.jpg -> .\output\img1 - copia (5) - copia.jpg
+2024-11-02 15:38:59,290 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5) - copia.jpg hacia .\output\img1 - copia (5) - copia.jpg
+2024-11-02 15:38:59,291 - _logger - INFO - Imagen procesada .\img1 - copia (5).jpg -> .\output\img1 - copia (5).jpg
+2024-11-02 15:38:59,305 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5).jpg hacia .\output\img1 - copia (5).jpg
+2024-11-02 15:38:59,305 - _logger - INFO - Imagen procesada .\img1 - copia (6) - copia.jpg -> .\output\img1 - copia (6) - copia.jpg
+2024-11-02 15:38:59,325 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (6) - copia.jpg hacia .\output\img1 - copia (6) - copia.jpg
+2024-11-02 15:38:59,325 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2) - copia.jpg -> .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 15:38:59,349 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2) - copia.jpg hacia .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 15:38:59,862 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2).jpg -> .\output\img1 - copia - copia (2).jpg
+2024-11-02 15:38:59,863 - _logger - INFO - Imagen procesada .\img1 - copia - copia (3).jpg -> .\output\img1 - copia - copia (3).jpg
+2024-11-02 15:38:59,875 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2).jpg hacia .\output\img1 - copia - copia (2).jpg
+2024-11-02 15:38:59,889 - _logger - INFO - Imagen procesada .\img1 - copia - copia.jpg -> .\output\img1 - copia - copia.jpg
+2024-11-02 15:38:59,889 - _logger - INFO - Imagen procesada .\img1 - copia - copia - copia.jpg -> .\output\img1 - copia - copia - copia.jpg
+2024-11-02 15:38:59,889 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (3).jpg hacia .\output\img1 - copia - copia (3).jpg
+2024-11-02 15:38:59,925 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia.jpg hacia .\output\img1 - copia - copia.jpg
+2024-11-02 15:38:59,930 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia - copia.jpg hacia .\output\img1 - copia - copia - copia.jpg
+2024-11-02 15:39:00,538 - _logger - INFO - Imagen procesada .\img1.jpg -> .\output\img1.jpg
+2024-11-02 15:39:00,566 - _logger - INFO - Imagen procesada correctamente en .\img1.jpg hacia .\output\img1.jpg
+2024-11-02 15:39:00,566 - _logger - INFO - Imagen procesada .\img1 - copia.jpg -> .\output\img1 - copia.jpg
+2024-11-02 15:39:00,599 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia.jpg hacia .\output\img1 - copia.jpg
+2024-11-02 15:39:01,129 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia - copia.jpg -> .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 15:39:01,154 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia - copia.jpg hacia .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 15:39:01,157 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia.jpg -> .\output\img2 - copia (2) - copia.jpg
+2024-11-02 15:39:01,188 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia.jpg hacia .\output\img2 - copia (2) - copia.jpg
+2024-11-02 15:39:01,852 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia - copia.jpg -> .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 15:39:01,885 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia - copia.jpg hacia .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 15:39:01,885 - _logger - INFO - Imagen procesada .\img2 - copia (2).jpg -> .\output\img2 - copia (2).jpg
+2024-11-02 15:39:01,917 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2).jpg hacia .\output\img2 - copia (2).jpg
+2024-11-02 15:39:02,198 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia.jpg -> .\output\img2 - copia (3) - copia.jpg
+2024-11-02 15:39:02,222 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia.jpg hacia .\output\img2 - copia (3) - copia.jpg
+2024-11-02 15:39:02,240 - _logger - INFO - Imagen procesada .\img2 - copia (3).jpg -> .\output\img2 - copia (3).jpg
+2024-11-02 15:39:02,270 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3).jpg hacia .\output\img2 - copia (3).jpg
+2024-11-02 15:39:02,911 - _logger - INFO - Imagen procesada .\img2 - copia (4) - copia.jpg -> .\output\img2 - copia (4) - copia.jpg
+2024-11-02 15:39:02,949 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4) - copia.jpg hacia .\output\img2 - copia (4) - copia.jpg
+2024-11-02 15:39:02,974 - _logger - INFO - Imagen procesada .\img2 - copia (4).jpg -> .\output\img2 - copia (4).jpg
+2024-11-02 15:39:03,008 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4).jpg hacia .\output\img2 - copia (4).jpg
+2024-11-02 15:39:03,253 - _logger - INFO - Imagen procesada .\img2 - copia (5).jpg -> .\output\img2 - copia (5).jpg
+2024-11-02 15:39:03,278 - _logger - INFO - Imagen procesada .\img2 - copia (5) - copia.jpg -> .\output\img2 - copia (5) - copia.jpg
+2024-11-02 15:39:03,278 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5).jpg hacia .\output\img2 - copia (5).jpg
+2024-11-02 15:39:03,305 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5) - copia.jpg hacia .\output\img2 - copia (5) - copia.jpg
+2024-11-02 15:39:03,919 - _logger - INFO - Imagen procesada .\img2 - copia (6) - copia.jpg -> .\output\img2 - copia (6) - copia.jpg
+2024-11-02 15:39:03,948 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (6) - copia.jpg hacia .\output\img2 - copia (6) - copia.jpg
+2024-11-02 15:39:03,948 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2) - copia.jpg -> .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 15:39:03,977 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2) - copia.jpg hacia .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 15:39:04,232 - _logger - INFO - Imagen procesada .\img2 - copia - copia (3).jpg -> .\output\img2 - copia - copia (3).jpg
+2024-11-02 15:39:04,257 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (3).jpg hacia .\output\img2 - copia - copia (3).jpg
+2024-11-02 15:39:04,272 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2).jpg -> .\output\img2 - copia - copia (2).jpg
+2024-11-02 15:39:04,298 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2).jpg hacia .\output\img2 - copia - copia (2).jpg
+2024-11-02 15:39:04,897 - _logger - INFO - Imagen procesada .\img2 - copia - copia - copia.jpg -> .\output\img2 - copia - copia - copia.jpg
+2024-11-02 15:39:04,924 - _logger - INFO - Imagen procesada .\img2 - copia - copia.jpg -> .\output\img2 - copia - copia.jpg
+2024-11-02 15:39:04,925 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia - copia.jpg hacia .\output\img2 - copia - copia - copia.jpg
+2024-11-02 15:39:04,956 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia.jpg hacia .\output\img2 - copia - copia.jpg
+2024-11-02 15:39:05,167 - _logger - INFO - Imagen procesada .\img2 - copia.jpg -> .\output\img2 - copia.jpg
+2024-11-02 15:39:05,193 - _logger - INFO - Imagen procesada .\img2.jpg -> .\output\img2.jpg
+2024-11-02 15:39:05,193 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia.jpg hacia .\output\img2 - copia.jpg
+2024-11-02 15:39:05,224 - _logger - INFO - Imagen procesada correctamente en .\img2.jpg hacia .\output\img2.jpg
+2024-11-02 15:39:05,288 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia - copia.jpg -> .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 15:39:05,299 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia - copia.jpg hacia .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 15:39:05,329 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia.jpg -> .\output\img3 - copia (2) - copia.jpg
+2024-11-02 15:39:05,341 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia.jpg hacia .\output\img3 - copia (2) - copia.jpg
+2024-11-02 15:39:05,572 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia - copia.jpg -> .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 15:39:05,579 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia - copia.jpg hacia .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 15:39:05,598 - _logger - INFO - Imagen procesada .\img3 - copia (2).jpg -> .\output\img3 - copia (2).jpg
+2024-11-02 15:39:05,610 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2).jpg hacia .\output\img3 - copia (2).jpg
+2024-11-02 15:39:05,673 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia.jpg -> .\output\img3 - copia (3) - copia.jpg
+2024-11-02 15:39:05,679 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia.jpg hacia .\output\img3 - copia (3) - copia.jpg
+2024-11-02 15:39:05,702 - _logger - INFO - Imagen procesada .\img3 - copia (3).jpg -> .\output\img3 - copia (3).jpg
+2024-11-02 15:39:05,712 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3).jpg hacia .\output\img3 - copia (3).jpg
+2024-11-02 15:39:05,921 - _logger - INFO - Imagen procesada .\img3 - copia (4) - copia.jpg -> .\output\img3 - copia (4) - copia.jpg
+2024-11-02 15:39:05,928 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (4) - copia.jpg hacia .\output\img3 - copia (4) - copia.jpg
+2024-11-02 15:39:05,946 - _logger - INFO - Imagen procesada .\img3 - copia (4).jpg -> .\output\img3 - copia (4).jpg
+2024-11-02 15:39:05,954 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (4).jpg hacia .\output\img3 - copia (4).jpg
+2024-11-02 15:39:06,037 - _logger - INFO - Imagen procesada .\img3 - copia (5) - copia.jpg -> .\output\img3 - copia (5) - copia.jpg
+2024-11-02 15:39:06,045 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5) - copia.jpg hacia .\output\img3 - copia (5) - copia.jpg
+2024-11-02 15:39:06,045 - _logger - INFO - Imagen procesada .\img3 - copia (5).jpg -> .\output\img3 - copia (5).jpg
+2024-11-02 15:39:06,059 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5).jpg hacia .\output\img3 - copia (5).jpg
+2024-11-02 15:39:06,269 - _logger - INFO - Imagen procesada .\img3 - copia (6) - copia.jpg -> .\output\img3 - copia (6) - copia.jpg
+2024-11-02 15:39:06,275 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (6) - copia.jpg hacia .\output\img3 - copia (6) - copia.jpg
+2024-11-02 15:39:06,290 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2) - copia.jpg -> .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 15:39:06,298 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2) - copia.jpg hacia .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 15:39:06,402 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2).jpg -> .\output\img3 - copia - copia (2).jpg
+2024-11-02 15:39:06,408 - _logger - INFO - Imagen procesada .\img3 - copia - copia (3).jpg -> .\output\img3 - copia - copia (3).jpg
+2024-11-02 15:39:06,409 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2).jpg hacia .\output\img3 - copia - copia (2).jpg
+2024-11-02 15:39:06,424 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (3).jpg hacia .\output\img3 - copia - copia (3).jpg
+2024-11-02 15:39:06,614 - _logger - INFO - Imagen procesada .\img3 - copia - copia - copia.jpg -> .\output\img3 - copia - copia - copia.jpg
+2024-11-02 15:39:06,621 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia - copia.jpg hacia .\output\img3 - copia - copia - copia.jpg
+2024-11-02 15:39:06,647 - _logger - INFO - Imagen procesada .\img3 - copia - copia.jpg -> .\output\img3 - copia - copia.jpg
+2024-11-02 15:39:06,657 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia.jpg hacia .\output\img3 - copia - copia.jpg
+2024-11-02 15:39:06,765 - _logger - INFO - Imagen procesada .\img3 - copia.jpg -> .\output\img3 - copia.jpg
+2024-11-02 15:39:06,766 - _logger - INFO - Imagen procesada .\img3.jpg -> .\output\img3.jpg
+2024-11-02 15:39:06,772 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia.jpg hacia .\output\img3 - copia.jpg
+2024-11-02 15:39:06,777 - _logger - INFO - Imagen procesada correctamente en .\img3.jpg hacia .\output\img3.jpg
+2024-11-02 15:39:07,520 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia - copia.jpg -> .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 15:39:07,528 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia.jpg -> .\output\img1 - copia (2) - copia.jpg
+2024-11-02 15:39:07,534 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia - copia.jpg hacia .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 15:39:07,546 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia.jpg hacia .\output\img1 - copia (2) - copia.jpg
+2024-11-02 15:39:07,561 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia - copia.jpg -> .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 15:39:07,577 - _logger - INFO - Imagen procesada .\img1 - copia (2).jpg -> .\output\img1 - copia (2).jpg
+2024-11-02 15:39:07,577 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia - copia.jpg hacia .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 15:39:07,593 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2).jpg hacia .\output\img1 - copia (2).jpg
+2024-11-02 15:39:08,075 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia.jpg -> .\output\img1 - copia (3) - copia.jpg
+2024-11-02 15:39:08,083 - _logger - INFO - Imagen procesada .\img1 - copia (3).jpg -> .\output\img1 - copia (3).jpg
+2024-11-02 15:39:08,088 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia.jpg hacia .\output\img1 - copia (3) - copia.jpg
+2024-11-02 15:39:08,098 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3).jpg hacia .\output\img1 - copia (3).jpg
+2024-11-02 15:39:08,129 - _logger - INFO - Imagen procesada .\img1 - copia (4).jpg -> .\output\img1 - copia (4).jpg
+2024-11-02 15:39:08,138 - _logger - INFO - Imagen procesada .\img1 - copia (4) - copia.jpg -> .\output\img1 - copia (4) - copia.jpg
+2024-11-02 15:39:08,142 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4).jpg hacia .\output\img1 - copia (4).jpg
+2024-11-02 15:39:08,159 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4) - copia.jpg hacia .\output\img1 - copia (4) - copia.jpg
+2024-11-02 15:39:08,654 - _logger - INFO - Imagen procesada .\img1 - copia (5) - copia.jpg -> .\output\img1 - copia (5) - copia.jpg
+2024-11-02 15:39:08,655 - _logger - INFO - Imagen procesada .\img1 - copia (5).jpg -> .\output\img1 - copia (5).jpg
+2024-11-02 15:39:08,666 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5) - copia.jpg hacia .\output\img1 - copia (5) - copia.jpg
+2024-11-02 15:39:08,672 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5).jpg hacia .\output\img1 - copia (5).jpg
+2024-11-02 15:39:08,685 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2) - copia.jpg -> .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 15:39:08,686 - _logger - INFO - Imagen procesada .\img1 - copia (6) - copia.jpg -> .\output\img1 - copia (6) - copia.jpg
+2024-11-02 15:39:08,703 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2) - copia.jpg hacia .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 15:39:08,706 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (6) - copia.jpg hacia .\output\img1 - copia (6) - copia.jpg
+2024-11-02 15:39:09,201 - _logger - INFO - Imagen procesada .\img1 - copia - copia (3).jpg -> .\output\img1 - copia - copia (3).jpg
+2024-11-02 15:39:09,204 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2).jpg -> .\output\img1 - copia - copia (2).jpg
+2024-11-02 15:39:09,212 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (3).jpg hacia .\output\img1 - copia - copia (3).jpg
+2024-11-02 15:39:09,217 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2).jpg hacia .\output\img1 - copia - copia (2).jpg
+2024-11-02 15:39:09,228 - _logger - INFO - Imagen procesada .\img1 - copia - copia.jpg -> .\output\img1 - copia - copia.jpg
+2024-11-02 15:39:09,243 - _logger - INFO - Imagen procesada .\img1 - copia - copia - copia.jpg -> .\output\img1 - copia - copia - copia.jpg
+2024-11-02 15:39:09,248 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia.jpg hacia .\output\img1 - copia - copia.jpg
+2024-11-02 15:39:09,265 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia - copia.jpg hacia .\output\img1 - copia - copia - copia.jpg
+2024-11-02 15:39:09,742 - _logger - INFO - Imagen procesada .\img1 - copia.jpg -> .\output\img1 - copia.jpg
+2024-11-02 15:39:09,758 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia.jpg hacia .\output\img1 - copia.jpg
+2024-11-02 15:39:09,765 - _logger - INFO - Imagen procesada .\img1.jpg -> .\output\img1.jpg
+2024-11-02 15:39:09,785 - _logger - INFO - Imagen procesada correctamente en .\img1.jpg hacia .\output\img1.jpg
+2024-11-02 15:39:10,090 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia - copia.jpg -> .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 15:39:10,108 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia - copia.jpg hacia .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 15:39:10,119 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia.jpg -> .\output\img2 - copia (2) - copia.jpg
+2024-11-02 15:39:10,148 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia.jpg hacia .\output\img2 - copia (2) - copia.jpg
+2024-11-02 15:39:10,618 - _logger - INFO - Imagen procesada .\img2 - copia (2).jpg -> .\output\img2 - copia (2).jpg
+2024-11-02 15:39:10,626 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia - copia.jpg -> .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 15:39:10,650 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2).jpg hacia .\output\img2 - copia (2).jpg
+2024-11-02 15:39:10,677 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia - copia.jpg hacia .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 15:39:10,947 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia.jpg -> .\output\img2 - copia (3) - copia.jpg
+2024-11-02 15:39:10,971 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia.jpg hacia .\output\img2 - copia (3) - copia.jpg
+2024-11-02 15:39:10,997 - _logger - INFO - Imagen procesada .\img2 - copia (3).jpg -> .\output\img2 - copia (3).jpg
+2024-11-02 15:39:11,028 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3).jpg hacia .\output\img2 - copia (3).jpg
+2024-11-02 15:39:11,508 - _logger - INFO - Imagen procesada .\img2 - copia (4) - copia.jpg -> .\output\img2 - copia (4) - copia.jpg
+2024-11-02 15:39:11,530 - _logger - INFO - Imagen procesada .\img2 - copia (4).jpg -> .\output\img2 - copia (4).jpg
+2024-11-02 15:39:11,538 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4) - copia.jpg hacia .\output\img2 - copia (4) - copia.jpg
+2024-11-02 15:39:11,567 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4).jpg hacia .\output\img2 - copia (4).jpg
+2024-11-02 15:39:11,822 - _logger - INFO - Imagen procesada .\img2 - copia (5) - copia.jpg -> .\output\img2 - copia (5) - copia.jpg
+2024-11-02 15:39:11,848 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5) - copia.jpg hacia .\output\img2 - copia (5) - copia.jpg
+2024-11-02 15:39:11,897 - _logger - INFO - Imagen procesada .\img2 - copia (5).jpg -> .\output\img2 - copia (5).jpg
+2024-11-02 15:39:11,927 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5).jpg hacia .\output\img2 - copia (5).jpg
+2024-11-02 15:39:12,395 - _logger - INFO - Imagen procesada .\img2 - copia (6) - copia.jpg -> .\output\img2 - copia (6) - copia.jpg
+2024-11-02 15:39:12,413 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2) - copia.jpg -> .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 15:39:12,428 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (6) - copia.jpg hacia .\output\img2 - copia (6) - copia.jpg
+2024-11-02 15:39:12,450 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2) - copia.jpg hacia .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 15:39:12,697 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2).jpg -> .\output\img2 - copia - copia (2).jpg
+2024-11-02 15:39:12,727 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2).jpg hacia .\output\img2 - copia - copia (2).jpg
+2024-11-02 15:39:12,776 - _logger - INFO - Imagen procesada .\img2 - copia - copia (3).jpg -> .\output\img2 - copia - copia (3).jpg
+2024-11-02 15:39:12,801 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (3).jpg hacia .\output\img2 - copia - copia (3).jpg
+2024-11-02 15:39:13,284 - _logger - INFO - Imagen procesada .\img2 - copia - copia - copia.jpg -> .\output\img2 - copia - copia - copia.jpg
+2024-11-02 15:39:13,314 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia - copia.jpg hacia .\output\img2 - copia - copia - copia.jpg
+2024-11-02 15:39:13,326 - _logger - INFO - Imagen procesada .\img2 - copia - copia.jpg -> .\output\img2 - copia - copia.jpg
+2024-11-02 15:39:13,408 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia.jpg hacia .\output\img2 - copia - copia.jpg
+2024-11-02 15:39:13,636 - _logger - INFO - Imagen procesada .\img2 - copia.jpg -> .\output\img2 - copia.jpg
+2024-11-02 15:39:13,664 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia.jpg hacia .\output\img2 - copia.jpg
+2024-11-02 15:39:13,708 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia - copia.jpg -> .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 15:39:13,720 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia - copia.jpg hacia .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 15:39:13,723 - _logger - INFO - Imagen procesada .\img2.jpg -> .\output\img2.jpg
+2024-11-02 15:39:13,752 - _logger - INFO - Imagen procesada correctamente en .\img2.jpg hacia .\output\img2.jpg
+2024-11-02 15:39:13,777 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia.jpg -> .\output\img3 - copia (2) - copia.jpg
+2024-11-02 15:39:13,784 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia.jpg hacia .\output\img3 - copia (2) - copia.jpg
+2024-11-02 15:39:14,130 - _logger - INFO - Imagen procesada .\img3 - copia (2).jpg -> .\output\img3 - copia (2).jpg
+2024-11-02 15:39:14,154 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2).jpg hacia .\output\img3 - copia (2).jpg
+2024-11-02 15:39:14,247 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia - copia.jpg -> .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 15:39:14,253 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia - copia.jpg hacia .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 15:39:14,261 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia.jpg -> .\output\img3 - copia (3) - copia.jpg
+2024-11-02 15:39:14,279 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia.jpg hacia .\output\img3 - copia (3) - copia.jpg
+2024-11-02 15:39:14,303 - _logger - INFO - Imagen procesada .\img3 - copia (3).jpg -> .\output\img3 - copia (3).jpg
+2024-11-02 15:39:14,312 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3).jpg hacia .\output\img3 - copia (3).jpg
+2024-11-02 15:39:14,525 - _logger - INFO - Imagen procesada .\img3 - copia (4) - copia.jpg -> .\output\img3 - copia (4) - copia.jpg
+2024-11-02 15:39:14,531 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (4) - copia.jpg hacia .\output\img3 - copia (4) - copia.jpg
+2024-11-02 15:39:14,600 - _logger - INFO - Imagen procesada .\img3 - copia (4).jpg -> .\output\img3 - copia (4).jpg
+2024-11-02 15:39:14,607 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (4).jpg hacia .\output\img3 - copia (4).jpg
+2024-11-02 15:39:14,617 - _logger - INFO - Imagen procesada .\img3 - copia (5) - copia.jpg -> .\output\img3 - copia (5) - copia.jpg
+2024-11-02 15:39:14,629 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5) - copia.jpg hacia .\output\img3 - copia (5) - copia.jpg
+2024-11-02 15:39:14,652 - _logger - INFO - Imagen procesada .\img3 - copia (5).jpg -> .\output\img3 - copia (5).jpg
+2024-11-02 15:39:14,660 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5).jpg hacia .\output\img3 - copia (5).jpg
+2024-11-02 15:39:14,881 - _logger - INFO - Imagen procesada .\img3 - copia (6) - copia.jpg -> .\output\img3 - copia (6) - copia.jpg
+2024-11-02 15:39:14,886 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (6) - copia.jpg hacia .\output\img3 - copia (6) - copia.jpg
+2024-11-02 15:39:14,993 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2) - copia.jpg -> .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 15:39:15,001 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2) - copia.jpg hacia .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 15:39:15,006 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2).jpg -> .\output\img3 - copia - copia (2).jpg
+2024-11-02 15:39:15,006 - _logger - INFO - Imagen procesada .\img3 - copia - copia (3).jpg -> .\output\img3 - copia - copia (3).jpg
+2024-11-02 15:39:15,018 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2).jpg hacia .\output\img3 - copia - copia (2).jpg
+2024-11-02 15:39:15,028 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (3).jpg hacia .\output\img3 - copia - copia (3).jpg
+2024-11-02 15:39:15,229 - _logger - INFO - Imagen procesada .\img3 - copia - copia - copia.jpg -> .\output\img3 - copia - copia - copia.jpg
+2024-11-02 15:39:15,235 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia - copia.jpg hacia .\output\img3 - copia - copia - copia.jpg
+2024-11-02 15:39:15,331 - _logger - INFO - Imagen procesada .\img3 - copia - copia.jpg -> .\output\img3 - copia - copia.jpg
+2024-11-02 15:39:15,338 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia.jpg hacia .\output\img3 - copia - copia.jpg
+2024-11-02 15:39:15,351 - _logger - INFO - Imagen procesada .\img3 - copia.jpg -> .\output\img3 - copia.jpg
+2024-11-02 15:39:15,359 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia.jpg hacia .\output\img3 - copia.jpg
+2024-11-02 15:39:15,359 - _logger - INFO - Imagen procesada .\img3.jpg -> .\output\img3.jpg
+2024-11-02 15:39:15,368 - _logger - INFO - Imagen procesada correctamente en .\img3.jpg hacia .\output\img3.jpg
+2024-11-02 15:39:15,412 - _logger - INFO - ThreadPoolExecutor tardo 9.34 segundos.
+2024-11-02 15:39:15,412 - _logger - INFO - ProcessPoolExecutor tardo 8.63 segundos.
+2024-11-02 15:39:15,413 - _logger - INFO - Comparación completada. Threads: 9.34s vs Procesos: 8.63s
+2024-11-02 15:41:54,522 - _logger - INFO - Imagen procesada .\img1 - copia (4) - copia.jpg -> .\output\img1 - copia (4) - copia.jpg
+2024-11-02 15:41:54,529 - _logger - INFO - Imagen procesada .\img1 - copia (5) - copia.jpg -> .\output\img1 - copia (5) - copia.jpg
+2024-11-02 15:41:54,545 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia.jpg -> .\output\img1 - copia (2) - copia.jpg
+2024-11-02 15:41:54,560 - _logger - INFO - Imagen procesada .\img1 - copia (5).jpg -> .\output\img1 - copia (5).jpg
+2024-11-02 15:41:54,563 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia - copia.jpg -> .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 15:41:54,573 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4) - copia.jpg hacia .\output\img1 - copia (4) - copia.jpg
+2024-11-02 15:41:54,600 - _logger - INFO - Imagen procesada .\img1 - copia (4).jpg -> .\output\img1 - copia (4).jpg
+2024-11-02 15:41:54,602 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia - copia.jpg -> .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 15:41:54,612 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia.jpg -> .\output\img1 - copia (3) - copia.jpg
+2024-11-02 15:41:54,626 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5) - copia.jpg hacia .\output\img1 - copia (5) - copia.jpg
+2024-11-02 15:41:54,671 - _logger - INFO - Imagen procesada .\img1 - copia (2).jpg -> .\output\img1 - copia (2).jpg
+2024-11-02 15:41:54,655 - _logger - INFO - Imagen procesada .\img1 - copia (3).jpg -> .\output\img1 - copia (3).jpg
+2024-11-02 15:41:54,673 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia.jpg hacia .\output\img1 - copia (2) - copia.jpg
+2024-11-02 15:41:54,770 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5).jpg hacia .\output\img1 - copia (5).jpg
+2024-11-02 15:41:54,784 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia - copia.jpg hacia .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 15:41:54,788 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4).jpg hacia .\output\img1 - copia (4).jpg
+2024-11-02 15:41:54,789 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia - copia.jpg hacia .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 15:41:54,791 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia.jpg hacia .\output\img1 - copia (3) - copia.jpg
+2024-11-02 15:41:54,792 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2).jpg hacia .\output\img1 - copia (2).jpg
+2024-11-02 15:41:54,848 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3).jpg hacia .\output\img1 - copia (3).jpg
+2024-11-02 15:41:55,951 - _logger - INFO - Imagen procesada .\img1 - copia - copia - copia.jpg -> .\output\img1 - copia - copia - copia.jpg
+2024-11-02 15:41:55,955 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2).jpg -> .\output\img1 - copia - copia (2).jpg
+2024-11-02 15:41:56,002 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia - copia.jpg hacia .\output\img1 - copia - copia - copia.jpg
+2024-11-02 15:41:56,002 - _logger - INFO - Imagen procesada .\img1 - copia (6) - copia.jpg -> .\output\img1 - copia (6) - copia.jpg
+2024-11-02 15:41:56,017 - _logger - INFO - Imagen procesada .\img1.jpg -> .\output\img1.jpg
+2024-11-02 15:41:56,017 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2) - copia.jpg -> .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 15:41:56,018 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2).jpg hacia .\output\img1 - copia - copia (2).jpg
+2024-11-02 15:41:56,035 - _logger - INFO - Imagen procesada .\img1 - copia - copia.jpg -> .\output\img1 - copia - copia.jpg
+2024-11-02 15:41:56,047 - _logger - INFO - Imagen procesada .\img1 - copia - copia (3).jpg -> .\output\img1 - copia - copia (3).jpg
+2024-11-02 15:41:56,101 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (6) - copia.jpg hacia .\output\img1 - copia (6) - copia.jpg
+2024-11-02 15:41:56,131 - _logger - INFO - Imagen procesada .\img1 - copia.jpg -> .\output\img1 - copia.jpg
+2024-11-02 15:41:56,185 - _logger - INFO - Imagen procesada correctamente en .\img1.jpg hacia .\output\img1.jpg
+2024-11-02 15:41:56,254 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2) - copia.jpg hacia .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 15:41:56,318 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia.jpg hacia .\output\img1 - copia - copia.jpg
+2024-11-02 15:41:56,379 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (3).jpg hacia .\output\img1 - copia - copia (3).jpg
+2024-11-02 15:41:56,447 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia.jpg hacia .\output\img1 - copia.jpg
+2024-11-02 15:41:56,728 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia - copia.jpg -> .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 15:41:56,858 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia - copia.jpg hacia .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 15:41:56,969 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia.jpg -> .\output\img2 - copia (2) - copia.jpg
+2024-11-02 15:41:57,132 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia.jpg hacia .\output\img2 - copia (2) - copia.jpg
+2024-11-02 15:41:58,267 - _logger - INFO - Imagen procesada .\img2 - copia (2).jpg -> .\output\img2 - copia (2).jpg
+2024-11-02 15:41:58,286 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia - copia.jpg -> .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 15:41:58,299 - _logger - INFO - Imagen procesada .\img2 - copia (4) - copia.jpg -> .\output\img2 - copia (4) - copia.jpg
+2024-11-02 15:41:58,301 - _logger - INFO - Imagen procesada .\img2 - copia (5) - copia.jpg -> .\output\img2 - copia (5) - copia.jpg
+2024-11-02 15:41:58,316 - _logger - INFO - Imagen procesada .\img2 - copia (3).jpg -> .\output\img2 - copia (3).jpg
+2024-11-02 15:41:58,370 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia.jpg -> .\output\img2 - copia (3) - copia.jpg
+2024-11-02 15:41:58,370 - _logger - INFO - Imagen procesada .\img2 - copia (4).jpg -> .\output\img2 - copia (4).jpg
+2024-11-02 15:41:58,374 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2).jpg hacia .\output\img2 - copia (2).jpg
+2024-11-02 15:41:58,433 - _logger - INFO - Imagen procesada .\img2 - copia (5).jpg -> .\output\img2 - copia (5).jpg
+2024-11-02 15:41:58,512 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia - copia.jpg hacia .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 15:41:58,580 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4) - copia.jpg hacia .\output\img2 - copia (4) - copia.jpg
+2024-11-02 15:41:58,592 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3).jpg hacia .\output\img2 - copia (3).jpg
+2024-11-02 15:41:58,594 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5) - copia.jpg hacia .\output\img2 - copia (5) - copia.jpg
+2024-11-02 15:41:58,595 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia.jpg hacia .\output\img2 - copia (3) - copia.jpg
+2024-11-02 15:41:58,596 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4).jpg hacia .\output\img2 - copia (4).jpg
+2024-11-02 15:41:58,598 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5).jpg hacia .\output\img2 - copia (5).jpg
+2024-11-02 15:41:58,949 - _logger - INFO - Imagen procesada .\img2 - copia (6) - copia.jpg -> .\output\img2 - copia (6) - copia.jpg
+2024-11-02 15:41:59,017 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (6) - copia.jpg hacia .\output\img2 - copia (6) - copia.jpg
+2024-11-02 15:41:59,279 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2) - copia.jpg -> .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 15:41:59,373 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2) - copia.jpg hacia .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 15:41:59,419 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia.jpg -> .\output\img3 - copia (2) - copia.jpg
+2024-11-02 15:41:59,497 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia - copia.jpg -> .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 15:41:59,541 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia.jpg hacia .\output\img3 - copia (2) - copia.jpg
+2024-11-02 15:41:59,549 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia - copia.jpg hacia .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 15:41:59,841 - _logger - INFO - Imagen procesada .\img3 - copia (2).jpg -> .\output\img3 - copia (2).jpg
+2024-11-02 15:41:59,899 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2).jpg hacia .\output\img3 - copia (2).jpg
+2024-11-02 15:42:00,240 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia - copia.jpg -> .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:00,320 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia - copia.jpg hacia .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:00,382 - _logger - INFO - Imagen procesada .\img3 - copia (3).jpg -> .\output\img3 - copia (3).jpg
+2024-11-02 15:42:00,496 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3).jpg hacia .\output\img3 - copia (3).jpg
+2024-11-02 15:42:00,511 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia.jpg -> .\output\img3 - copia (3) - copia.jpg
+2024-11-02 15:42:00,568 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia.jpg hacia .\output\img3 - copia (3) - copia.jpg
+2024-11-02 15:42:00,658 - _logger - INFO - Imagen procesada .\img2 - copia - copia - copia.jpg -> .\output\img2 - copia - copia - copia.jpg
+2024-11-02 15:42:00,700 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2).jpg -> .\output\img2 - copia - copia (2).jpg
+2024-11-02 15:42:00,722 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia - copia.jpg hacia .\output\img2 - copia - copia - copia.jpg
+2024-11-02 15:42:00,722 - _logger - INFO - Imagen procesada .\img2 - copia - copia.jpg -> .\output\img2 - copia - copia.jpg
+2024-11-02 15:42:00,763 - _logger - INFO - Imagen procesada .\img2 - copia.jpg -> .\output\img2 - copia.jpg
+2024-11-02 15:42:00,777 - _logger - INFO - Imagen procesada .\img3 - copia (4) - copia.jpg -> .\output\img3 - copia (4) - copia.jpg
+2024-11-02 15:42:00,800 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2).jpg hacia .\output\img2 - copia - copia (2).jpg
+2024-11-02 15:42:00,838 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia.jpg hacia .\output\img2 - copia - copia.jpg
+2024-11-02 15:42:00,887 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia.jpg hacia .\output\img2 - copia.jpg
+2024-11-02 15:42:00,914 - _logger - INFO - Imagen procesada .\img2 - copia - copia (3).jpg -> .\output\img2 - copia - copia (3).jpg
+2024-11-02 15:42:00,944 - _logger - INFO - Imagen procesada .\img2.jpg -> .\output\img2.jpg
+2024-11-02 15:42:00,946 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (4) - copia.jpg hacia .\output\img3 - copia (4) - copia.jpg
+2024-11-02 15:42:01,032 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (3).jpg hacia .\output\img2 - copia - copia (3).jpg
+2024-11-02 15:42:01,034 - _logger - INFO - Imagen procesada correctamente en .\img2.jpg hacia .\output\img2.jpg
+2024-11-02 15:42:01,202 - _logger - INFO - Imagen procesada .\img3 - copia (4).jpg -> .\output\img3 - copia (4).jpg
+2024-11-02 15:42:01,272 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (4).jpg hacia .\output\img3 - copia (4).jpg
+2024-11-02 15:42:01,324 - _logger - INFO - Imagen procesada .\img3 - copia (5) - copia.jpg -> .\output\img3 - copia (5) - copia.jpg
+2024-11-02 15:42:01,419 - _logger - INFO - Imagen procesada .\img3 - copia (5).jpg -> .\output\img3 - copia (5).jpg
+2024-11-02 15:42:01,444 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5) - copia.jpg hacia .\output\img3 - copia (5) - copia.jpg
+2024-11-02 15:42:01,469 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5).jpg hacia .\output\img3 - copia (5).jpg
+2024-11-02 15:42:01,529 - _logger - INFO - Imagen procesada .\img3 - copia (6) - copia.jpg -> .\output\img3 - copia (6) - copia.jpg
+2024-11-02 15:42:01,589 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (6) - copia.jpg hacia .\output\img3 - copia (6) - copia.jpg
+2024-11-02 15:42:01,622 - _logger - INFO - Imagen procesada .\img3 - copia - copia (3).jpg -> .\output\img3 - copia - copia (3).jpg
+2024-11-02 15:42:01,622 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2).jpg -> .\output\img3 - copia - copia (2).jpg
+2024-11-02 15:42:01,653 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (3).jpg hacia .\output\img3 - copia - copia (3).jpg
+2024-11-02 15:42:01,658 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2).jpg hacia .\output\img3 - copia - copia (2).jpg
+2024-11-02 15:42:01,675 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2) - copia.jpg -> .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:01,680 - _logger - INFO - Imagen procesada .\img3 - copia - copia - copia.jpg -> .\output\img3 - copia - copia - copia.jpg
+2024-11-02 15:42:01,703 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2) - copia.jpg hacia .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:01,710 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia - copia.jpg hacia .\output\img3 - copia - copia - copia.jpg
+2024-11-02 15:42:01,717 - _logger - INFO - Imagen procesada .\img3 - copia - copia.jpg -> .\output\img3 - copia - copia.jpg
+2024-11-02 15:42:01,726 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia.jpg hacia .\output\img3 - copia - copia.jpg
+2024-11-02 15:42:01,737 - _logger - INFO - Imagen procesada .\img3 - copia.jpg -> .\output\img3 - copia.jpg
+2024-11-02 15:42:01,744 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia.jpg hacia .\output\img3 - copia.jpg
+2024-11-02 15:42:01,833 - _logger - INFO - Imagen procesada .\img3.jpg -> .\output\img3.jpg
+2024-11-02 15:42:01,838 - _logger - INFO - Imagen procesada correctamente en .\img3.jpg hacia .\output\img3.jpg
+2024-11-02 15:42:03,556 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia - copia.jpg -> .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:03,646 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia - copia.jpg hacia .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:03,670 - _logger - INFO - Imagen procesada .\img1 - copia (3).jpg -> .\output\img1 - copia (3).jpg
+2024-11-02 15:42:03,748 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3).jpg hacia .\output\img1 - copia (3).jpg
+2024-11-02 15:42:03,751 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia.jpg -> .\output\img1 - copia (2) - copia.jpg
+2024-11-02 15:42:03,758 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia.jpg hacia .\output\img1 - copia (2) - copia.jpg
+2024-11-02 15:42:03,780 - _logger - INFO - Imagen procesada .\img1 - copia (4).jpg -> .\output\img1 - copia (4).jpg
+2024-11-02 15:42:03,877 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4).jpg hacia .\output\img1 - copia (4).jpg
+2024-11-02 15:42:03,811 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia - copia.jpg -> .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:03,804 - _logger - INFO - Imagen procesada .\img1 - copia (5) - copia.jpg -> .\output\img1 - copia (5) - copia.jpg
+2024-11-02 15:42:03,886 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia - copia.jpg hacia .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:03,894 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5) - copia.jpg hacia .\output\img1 - copia (5) - copia.jpg
+2024-11-02 15:42:03,812 - _logger - INFO - Imagen procesada .\img1 - copia (4) - copia.jpg -> .\output\img1 - copia (4) - copia.jpg
+2024-11-02 15:42:03,904 - _logger - INFO - Imagen procesada .\img1 - copia (2).jpg -> .\output\img1 - copia (2).jpg
+2024-11-02 15:42:03,946 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4) - copia.jpg hacia .\output\img1 - copia (4) - copia.jpg
+2024-11-02 15:42:04,003 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2).jpg hacia .\output\img1 - copia (2).jpg
+2024-11-02 15:42:03,979 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia.jpg -> .\output\img1 - copia (3) - copia.jpg
+2024-11-02 15:42:04,123 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia.jpg hacia .\output\img1 - copia (3) - copia.jpg
+2024-11-02 15:42:04,385 - _logger - INFO - Imagen procesada .\img1 - copia (5).jpg -> .\output\img1 - copia (5).jpg
+2024-11-02 15:42:04,452 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5).jpg hacia .\output\img1 - copia (5).jpg
+2024-11-02 15:42:04,977 - _logger - INFO - Imagen procesada .\img1 - copia (6) - copia.jpg -> .\output\img1 - copia (6) - copia.jpg
+2024-11-02 15:42:05,033 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (6) - copia.jpg hacia .\output\img1 - copia (6) - copia.jpg
+2024-11-02 15:42:05,046 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2) - copia.jpg -> .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:05,099 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2) - copia.jpg hacia .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:05,144 - _logger - INFO - Imagen procesada .\img1 - copia - copia - copia.jpg -> .\output\img1 - copia - copia - copia.jpg
+2024-11-02 15:42:05,226 - _logger - INFO - Imagen procesada .\img1 - copia - copia.jpg -> .\output\img1 - copia - copia.jpg
+2024-11-02 15:42:05,194 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia - copia.jpg hacia .\output\img1 - copia - copia - copia.jpg
+2024-11-02 15:42:05,274 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia.jpg hacia .\output\img1 - copia - copia.jpg
+2024-11-02 15:42:05,242 - _logger - INFO - Imagen procesada .\img1 - copia.jpg -> .\output\img1 - copia.jpg
+2024-11-02 15:42:05,181 - _logger - INFO - Imagen procesada .\img1 - copia - copia (3).jpg -> .\output\img1 - copia - copia (3).jpg
+2024-11-02 15:42:05,092 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2).jpg -> .\output\img1 - copia - copia (2).jpg
+2024-11-02 15:42:05,282 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia.jpg hacia .\output\img1 - copia.jpg
+2024-11-02 15:42:05,284 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (3).jpg hacia .\output\img1 - copia - copia (3).jpg
+2024-11-02 15:42:05,287 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2).jpg hacia .\output\img1 - copia - copia (2).jpg
+2024-11-02 15:42:05,264 - _logger - INFO - Imagen procesada .\img1.jpg -> .\output\img1.jpg
+2024-11-02 15:42:05,331 - _logger - INFO - Imagen procesada correctamente en .\img1.jpg hacia .\output\img1.jpg
+2024-11-02 15:42:06,365 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia - copia.jpg -> .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:06,446 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia - copia.jpg hacia .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:06,648 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia.jpg -> .\output\img2 - copia (2) - copia.jpg
+2024-11-02 15:42:06,723 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia.jpg hacia .\output\img2 - copia (2) - copia.jpg
+2024-11-02 15:42:07,263 - _logger - INFO - Imagen procesada .\img2 - copia (2).jpg -> .\output\img2 - copia (2).jpg
+2024-11-02 15:42:07,340 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2).jpg hacia .\output\img2 - copia (2).jpg
+2024-11-02 15:42:07,403 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia - copia.jpg -> .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:07,465 - _logger - INFO - Imagen procesada .\img2 - copia (4) - copia.jpg -> .\output\img2 - copia (4) - copia.jpg
+2024-11-02 15:42:07,478 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia - copia.jpg hacia .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:07,533 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4) - copia.jpg hacia .\output\img2 - copia (4) - copia.jpg
+2024-11-02 15:42:07,441 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia.jpg -> .\output\img2 - copia (3) - copia.jpg
+2024-11-02 15:42:07,581 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia.jpg hacia .\output\img2 - copia (3) - copia.jpg
+2024-11-02 15:42:07,534 - _logger - INFO - Imagen procesada .\img2 - copia (5).jpg -> .\output\img2 - copia (5).jpg
+2024-11-02 15:42:07,622 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5).jpg hacia .\output\img2 - copia (5).jpg
+2024-11-02 15:42:07,503 - _logger - INFO - Imagen procesada .\img2 - copia (5) - copia.jpg -> .\output\img2 - copia (5) - copia.jpg
+2024-11-02 15:42:07,698 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5) - copia.jpg hacia .\output\img2 - copia (5) - copia.jpg
+2024-11-02 15:42:07,552 - _logger - INFO - Imagen procesada .\img2 - copia (4).jpg -> .\output\img2 - copia (4).jpg
+2024-11-02 15:42:07,762 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4).jpg hacia .\output\img2 - copia (4).jpg
+2024-11-02 15:42:07,514 - _logger - INFO - Imagen procesada .\img2 - copia (3).jpg -> .\output\img2 - copia (3).jpg
+2024-11-02 15:42:07,865 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3).jpg hacia .\output\img2 - copia (3).jpg
+2024-11-02 15:42:08,525 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia - copia.jpg -> .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:08,543 - _logger - INFO - Imagen procesada .\img2 - copia (6) - copia.jpg -> .\output\img2 - copia (6) - copia.jpg
+2024-11-02 15:42:08,604 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia.jpg -> .\output\img3 - copia (2) - copia.jpg
+2024-11-02 15:42:08,606 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia - copia.jpg hacia .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:08,612 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia.jpg hacia .\output\img3 - copia (2) - copia.jpg
+2024-11-02 15:42:08,630 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (6) - copia.jpg hacia .\output\img2 - copia (6) - copia.jpg
+2024-11-02 15:42:08,751 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2) - copia.jpg -> .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:08,864 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2) - copia.jpg hacia .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:09,363 - _logger - INFO - Imagen procesada .\img3 - copia (2).jpg -> .\output\img3 - copia (2).jpg
+2024-11-02 15:42:09,425 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2).jpg hacia .\output\img3 - copia (2).jpg
+2024-11-02 15:42:09,442 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia - copia.jpg -> .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:09,484 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia - copia.jpg hacia .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:09,415 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2).jpg -> .\output\img2 - copia - copia (2).jpg
+2024-11-02 15:42:09,460 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia.jpg -> .\output\img3 - copia (3) - copia.jpg
+2024-11-02 15:42:09,535 - _logger - INFO - Imagen procesada .\img2 - copia - copia - copia.jpg -> .\output\img2 - copia - copia - copia.jpg
+2024-11-02 15:42:09,547 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2).jpg hacia .\output\img2 - copia - copia (2).jpg
+2024-11-02 15:42:09,598 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia.jpg hacia .\output\img3 - copia (3) - copia.jpg
+2024-11-02 15:42:09,602 - _logger - INFO - Imagen procesada .\img3 - copia (3).jpg -> .\output\img3 - copia (3).jpg
+2024-11-02 15:42:09,612 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia - copia.jpg hacia .\output\img2 - copia - copia - copia.jpg
+2024-11-02 15:42:09,649 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3).jpg hacia .\output\img3 - copia (3).jpg
+2024-11-02 15:42:09,499 - _logger - INFO - Imagen procesada .\img2 - copia - copia (3).jpg -> .\output\img2 - copia - copia (3).jpg
+2024-11-02 15:42:09,777 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (3).jpg hacia .\output\img2 - copia - copia (3).jpg
+2024-11-02 15:42:09,645 - _logger - INFO - Imagen procesada .\img2 - copia.jpg -> .\output\img2 - copia.jpg
+2024-11-02 15:42:09,820 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia.jpg hacia .\output\img2 - copia.jpg
+2024-11-02 15:42:09,885 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia.jpg hacia .\output\img2 - copia - copia.jpg
+2024-11-02 15:42:09,733 - _logger - INFO - Imagen procesada .\img2.jpg -> .\output\img2.jpg
+2024-11-02 15:42:09,991 - _logger - INFO - Imagen procesada correctamente en .\img2.jpg hacia .\output\img2.jpg
+2024-11-02 15:42:10,127 - _logger - INFO - Imagen procesada .\img3 - copia (4) - copia.jpg -> .\output\img3 - copia (4) - copia.jpg
+2024-11-02 15:42:10,189 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (4) - copia.jpg hacia .\output\img3 - copia (4) - copia.jpg
+2024-11-02 15:42:10,256 - _logger - INFO - Imagen procesada .\img3 - copia (5).jpg -> .\output\img3 - copia (5).jpg
+2024-11-02 15:42:10,304 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5).jpg hacia .\output\img3 - copia (5).jpg
+2024-11-02 15:42:10,294 - _logger - INFO - Imagen procesada .\img3 - copia (4).jpg -> .\output\img3 - copia (4).jpg
+2024-11-02 15:42:10,353 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (4).jpg hacia .\output\img3 - copia (4).jpg
+2024-11-02 15:42:10,359 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2) - copia.jpg -> .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:10,400 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2) - copia.jpg hacia .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:10,287 - _logger - INFO - Imagen procesada .\img3 - copia (5) - copia.jpg -> .\output\img3 - copia (5) - copia.jpg
+2024-11-02 15:42:10,431 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5) - copia.jpg hacia .\output\img3 - copia (5) - copia.jpg
+2024-11-02 15:42:10,366 - _logger - INFO - Imagen procesada .\img3 - copia (6) - copia.jpg -> .\output\img3 - copia (6) - copia.jpg
+2024-11-02 15:42:10,482 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (6) - copia.jpg hacia .\output\img3 - copia (6) - copia.jpg
+2024-11-02 15:42:10,476 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2).jpg -> .\output\img3 - copia - copia (2).jpg
+2024-11-02 15:42:10,519 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2).jpg hacia .\output\img3 - copia - copia (2).jpg
+2024-11-02 15:42:10,514 - _logger - INFO - Imagen procesada .\img3 - copia - copia (3).jpg -> .\output\img3 - copia - copia (3).jpg
+2024-11-02 15:42:10,543 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (3).jpg hacia .\output\img3 - copia - copia (3).jpg
+2024-11-02 15:42:10,546 - _logger - INFO - Imagen procesada .\img3 - copia - copia - copia.jpg -> .\output\img3 - copia - copia - copia.jpg
+2024-11-02 15:42:10,552 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia - copia.jpg hacia .\output\img3 - copia - copia - copia.jpg
+2024-11-02 15:42:10,580 - _logger - INFO - Imagen procesada .\img3 - copia - copia.jpg -> .\output\img3 - copia - copia.jpg
+2024-11-02 15:42:10,588 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia.jpg hacia .\output\img3 - copia - copia.jpg
+2024-11-02 15:42:10,689 - _logger - INFO - Imagen procesada .\img3 - copia.jpg -> .\output\img3 - copia.jpg
+2024-11-02 15:42:10,693 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia.jpg hacia .\output\img3 - copia.jpg
+2024-11-02 15:42:10,738 - _logger - INFO - Imagen procesada .\img3.jpg -> .\output\img3.jpg
+2024-11-02 15:42:10,743 - _logger - INFO - Imagen procesada correctamente en .\img3.jpg hacia .\output\img3.jpg
+2024-11-02 15:42:10,830 - _logger - INFO - ThreadPoolExecutor tardo 8.59 segundos.
+2024-11-02 15:42:10,831 - _logger - INFO - ProcessPoolExecutor tardo 8.99 segundos.
+2024-11-02 15:42:10,832 - _logger - INFO - Comparación completada. Threads: 8.59s vs Procesos: 8.99s
+2024-11-02 15:42:34,233 - _logger - INFO - Imagen procesada .\img1 - copia (2).jpg -> .\output\img1 - copia (2).jpg
+2024-11-02 15:42:34,243 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2).jpg hacia .\output\img1 - copia (2).jpg
+2024-11-02 15:42:34,244 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia.jpg -> .\output\img1 - copia (2) - copia.jpg
+2024-11-02 15:42:34,244 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia - copia.jpg -> .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:34,245 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia - copia.jpg -> .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:34,254 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia.jpg hacia .\output\img1 - copia (2) - copia.jpg
+2024-11-02 15:42:34,272 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia - copia.jpg hacia .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:34,281 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia - copia.jpg hacia .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:34,823 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia.jpg -> .\output\img1 - copia (3) - copia.jpg
+2024-11-02 15:42:34,831 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia.jpg hacia .\output\img1 - copia (3) - copia.jpg
+2024-11-02 15:42:34,864 - _logger - INFO - Imagen procesada .\img1 - copia (4).jpg -> .\output\img1 - copia (4).jpg
+2024-11-02 15:42:34,873 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4).jpg hacia .\output\img1 - copia (4).jpg
+2024-11-02 15:42:34,873 - _logger - INFO - Imagen procesada .\img1 - copia (4) - copia.jpg -> .\output\img1 - copia (4) - copia.jpg
+2024-11-02 15:42:34,874 - _logger - INFO - Imagen procesada .\img1 - copia (3).jpg -> .\output\img1 - copia (3).jpg
+2024-11-02 15:42:34,883 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4) - copia.jpg hacia .\output\img1 - copia (4) - copia.jpg
+2024-11-02 15:42:34,905 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3).jpg hacia .\output\img1 - copia (3).jpg
+2024-11-02 15:42:35,432 - _logger - INFO - Imagen procesada .\img1 - copia (5) - copia.jpg -> .\output\img1 - copia (5) - copia.jpg
+2024-11-02 15:42:35,443 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5) - copia.jpg hacia .\output\img1 - copia (5) - copia.jpg
+2024-11-02 15:42:35,472 - _logger - INFO - Imagen procesada .\img1 - copia (6) - copia.jpg -> .\output\img1 - copia (6) - copia.jpg
+2024-11-02 15:42:35,482 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (6) - copia.jpg hacia .\output\img1 - copia (6) - copia.jpg
+2024-11-02 15:42:35,483 - _logger - INFO - Imagen procesada .\img1 - copia (5).jpg -> .\output\img1 - copia (5).jpg
+2024-11-02 15:42:35,495 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5).jpg hacia .\output\img1 - copia (5).jpg
+2024-11-02 15:42:35,495 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2) - copia.jpg -> .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:35,519 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2) - copia.jpg hacia .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:36,090 - _logger - INFO - Imagen procesada .\img1 - copia - copia.jpg -> .\output\img1 - copia - copia.jpg
+2024-11-02 15:42:36,097 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia.jpg hacia .\output\img1 - copia - copia.jpg
+2024-11-02 15:42:36,098 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2).jpg -> .\output\img1 - copia - copia (2).jpg
+2024-11-02 15:42:36,106 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2).jpg hacia .\output\img1 - copia - copia (2).jpg
+2024-11-02 15:42:36,116 - _logger - INFO - Imagen procesada .\img1 - copia - copia - copia.jpg -> .\output\img1 - copia - copia - copia.jpg
+2024-11-02 15:42:36,125 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia - copia.jpg hacia .\output\img1 - copia - copia - copia.jpg
+2024-11-02 15:42:36,147 - _logger - INFO - Imagen procesada .\img1 - copia - copia (3).jpg -> .\output\img1 - copia - copia (3).jpg
+2024-11-02 15:42:36,159 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (3).jpg hacia .\output\img1 - copia - copia (3).jpg
+2024-11-02 15:42:36,679 - _logger - INFO - Imagen procesada .\img1.jpg -> .\output\img1.jpg
+2024-11-02 15:42:36,684 - _logger - INFO - Imagen procesada .\img1 - copia.jpg -> .\output\img1 - copia.jpg
+2024-11-02 15:42:36,718 - _logger - INFO - Imagen procesada correctamente en .\img1.jpg hacia .\output\img1.jpg
+2024-11-02 15:42:36,727 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia.jpg hacia .\output\img1 - copia.jpg
+2024-11-02 15:42:36,999 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia - copia.jpg -> .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:37,022 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia - copia.jpg hacia .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:37,070 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia.jpg -> .\output\img2 - copia (2) - copia.jpg
+2024-11-02 15:42:37,086 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia.jpg hacia .\output\img2 - copia (2) - copia.jpg
+2024-11-02 15:42:37,661 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia - copia.jpg -> .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:37,679 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia - copia.jpg hacia .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:37,679 - _logger - INFO - Imagen procesada .\img2 - copia (2).jpg -> .\output\img2 - copia (2).jpg
+2024-11-02 15:42:37,698 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2).jpg hacia .\output\img2 - copia (2).jpg
+2024-11-02 15:42:37,974 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia.jpg -> .\output\img2 - copia (3) - copia.jpg
+2024-11-02 15:42:38,005 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia.jpg hacia .\output\img2 - copia (3) - copia.jpg
+2024-11-02 15:42:38,031 - _logger - INFO - Imagen procesada .\img2 - copia (3).jpg -> .\output\img2 - copia (3).jpg
+2024-11-02 15:42:38,048 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3).jpg hacia .\output\img2 - copia (3).jpg
+2024-11-02 15:42:38,618 - _logger - INFO - Imagen procesada .\img2 - copia (4) - copia.jpg -> .\output\img2 - copia (4) - copia.jpg
+2024-11-02 15:42:38,647 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4) - copia.jpg hacia .\output\img2 - copia (4) - copia.jpg
+2024-11-02 15:42:38,798 - _logger - INFO - Imagen procesada .\img2 - copia (4).jpg -> .\output\img2 - copia (4).jpg
+2024-11-02 15:42:38,838 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4).jpg hacia .\output\img2 - copia (4).jpg
+2024-11-02 15:42:39,067 - _logger - INFO - Imagen procesada .\img2 - copia (5) - copia.jpg -> .\output\img2 - copia (5) - copia.jpg
+2024-11-02 15:42:39,083 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5) - copia.jpg hacia .\output\img2 - copia (5) - copia.jpg
+2024-11-02 15:42:39,120 - _logger - INFO - Imagen procesada .\img2 - copia (5).jpg -> .\output\img2 - copia (5).jpg
+2024-11-02 15:42:39,135 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5).jpg hacia .\output\img2 - copia (5).jpg
+2024-11-02 15:42:39,836 - _logger - INFO - Imagen procesada .\img2 - copia (6) - copia.jpg -> .\output\img2 - copia (6) - copia.jpg
+2024-11-02 15:42:39,859 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (6) - copia.jpg hacia .\output\img2 - copia (6) - copia.jpg
+2024-11-02 15:42:40,058 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2) - copia.jpg -> .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:40,100 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2) - copia.jpg hacia .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:40,311 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2).jpg -> .\output\img2 - copia - copia (2).jpg
+2024-11-02 15:42:40,315 - _logger - INFO - Imagen procesada .\img2 - copia - copia (3).jpg -> .\output\img2 - copia - copia (3).jpg
+2024-11-02 15:42:40,354 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (3).jpg hacia .\output\img2 - copia - copia (3).jpg
+2024-11-02 15:42:40,365 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2).jpg hacia .\output\img2 - copia - copia (2).jpg
+2024-11-02 15:42:41,222 - _logger - INFO - Imagen procesada .\img2 - copia - copia - copia.jpg -> .\output\img2 - copia - copia - copia.jpg
+2024-11-02 15:42:41,264 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia - copia.jpg hacia .\output\img2 - copia - copia - copia.jpg
+2024-11-02 15:42:41,426 - _logger - INFO - Imagen procesada .\img2 - copia - copia.jpg -> .\output\img2 - copia - copia.jpg
+2024-11-02 15:42:41,439 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia.jpg hacia .\output\img2 - copia - copia.jpg
+2024-11-02 15:42:41,632 - _logger - INFO - Imagen procesada .\img2 - copia.jpg -> .\output\img2 - copia.jpg
+2024-11-02 15:42:41,639 - _logger - INFO - Imagen procesada .\img2.jpg -> .\output\img2.jpg
+2024-11-02 15:42:41,655 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia.jpg hacia .\output\img2 - copia.jpg
+2024-11-02 15:42:41,674 - _logger - INFO - Imagen procesada correctamente en .\img2.jpg hacia .\output\img2.jpg
+2024-11-02 15:42:41,702 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia - copia.jpg -> .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:41,712 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia - copia.jpg hacia .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:41,871 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia.jpg -> .\output\img3 - copia (2) - copia.jpg
+2024-11-02 15:42:41,965 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia.jpg hacia .\output\img3 - copia (2) - copia.jpg
+2024-11-02 15:42:42,248 - _logger - INFO - Imagen procesada .\img3 - copia (2).jpg -> .\output\img3 - copia (2).jpg
+2024-11-02 15:42:42,258 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2).jpg hacia .\output\img3 - copia (2).jpg
+2024-11-02 15:42:42,323 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia - copia.jpg -> .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:42,338 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia - copia.jpg hacia .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:42,370 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia.jpg -> .\output\img3 - copia (3) - copia.jpg
+2024-11-02 15:42:42,384 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia.jpg hacia .\output\img3 - copia (3) - copia.jpg
+2024-11-02 15:42:42,537 - _logger - INFO - Imagen procesada .\img3 - copia (3).jpg -> .\output\img3 - copia (3).jpg
+2024-11-02 15:42:42,566 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3).jpg hacia .\output\img3 - copia (3).jpg
+2024-11-02 15:42:42,731 - _logger - INFO - Imagen procesada .\img3 - copia (4) - copia.jpg -> .\output\img3 - copia (4) - copia.jpg
+2024-11-02 15:42:42,752 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (4) - copia.jpg hacia .\output\img3 - copia (4) - copia.jpg
+2024-11-02 15:42:42,788 - _logger - INFO - Imagen procesada .\img3 - copia (4).jpg -> .\output\img3 - copia (4).jpg
+2024-11-02 15:42:42,805 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (4).jpg hacia .\output\img3 - copia (4).jpg
+2024-11-02 15:42:42,939 - _logger - INFO - Imagen procesada .\img3 - copia (5) - copia.jpg -> .\output\img3 - copia (5) - copia.jpg
+2024-11-02 15:42:42,949 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5) - copia.jpg hacia .\output\img3 - copia (5) - copia.jpg
+2024-11-02 15:42:43,170 - _logger - INFO - Imagen procesada .\img3 - copia (5).jpg -> .\output\img3 - copia (5).jpg
+2024-11-02 15:42:43,175 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5).jpg hacia .\output\img3 - copia (5).jpg
+2024-11-02 15:42:43,256 - _logger - INFO - Imagen procesada .\img3 - copia (6) - copia.jpg -> .\output\img3 - copia (6) - copia.jpg
+2024-11-02 15:42:43,265 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (6) - copia.jpg hacia .\output\img3 - copia (6) - copia.jpg
+2024-11-02 15:42:43,377 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2) - copia.jpg -> .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:43,396 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2) - copia.jpg hacia .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:43,409 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2).jpg -> .\output\img3 - copia - copia (2).jpg
+2024-11-02 15:42:43,425 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2).jpg hacia .\output\img3 - copia - copia (2).jpg
+2024-11-02 15:42:43,607 - _logger - INFO - Imagen procesada .\img3 - copia - copia (3).jpg -> .\output\img3 - copia - copia (3).jpg
+2024-11-02 15:42:43,614 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (3).jpg hacia .\output\img3 - copia - copia (3).jpg
+2024-11-02 15:42:43,676 - _logger - INFO - Imagen procesada .\img3 - copia - copia - copia.jpg -> .\output\img3 - copia - copia - copia.jpg
+2024-11-02 15:42:43,684 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia - copia.jpg hacia .\output\img3 - copia - copia - copia.jpg
+2024-11-02 15:42:43,813 - _logger - INFO - Imagen procesada .\img3 - copia - copia.jpg -> .\output\img3 - copia - copia.jpg
+2024-11-02 15:42:43,819 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia.jpg hacia .\output\img3 - copia - copia.jpg
+2024-11-02 15:42:43,857 - _logger - INFO - Imagen procesada .\img3 - copia.jpg -> .\output\img3 - copia.jpg
+2024-11-02 15:42:43,900 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia.jpg hacia .\output\img3 - copia.jpg
+2024-11-02 15:42:44,079 - _logger - INFO - Imagen procesada .\img3.jpg -> .\output\img3.jpg
+2024-11-02 15:42:44,085 - _logger - INFO - Imagen procesada correctamente en .\img3.jpg hacia .\output\img3.jpg
+2024-11-02 15:42:45,136 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia - copia.jpg -> .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:45,146 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia - copia.jpg hacia .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:45,236 - _logger - INFO - Imagen procesada .\img1 - copia (2).jpg -> .\output\img1 - copia (2).jpg
+2024-11-02 15:42:45,251 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2).jpg hacia .\output\img1 - copia (2).jpg
+2024-11-02 15:42:45,277 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia.jpg -> .\output\img1 - copia (2) - copia.jpg
+2024-11-02 15:42:45,297 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia.jpg hacia .\output\img1 - copia (2) - copia.jpg
+2024-11-02 15:42:45,316 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia - copia.jpg -> .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:45,326 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia - copia.jpg hacia .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:45,738 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia.jpg -> .\output\img1 - copia (3) - copia.jpg
+2024-11-02 15:42:45,747 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia.jpg hacia .\output\img1 - copia (3) - copia.jpg
+2024-11-02 15:42:45,854 - _logger - INFO - Imagen procesada .\img1 - copia (3).jpg -> .\output\img1 - copia (3).jpg
+2024-11-02 15:42:45,860 - _logger - INFO - Imagen procesada .\img1 - copia (4) - copia.jpg -> .\output\img1 - copia (4) - copia.jpg
+2024-11-02 15:42:45,866 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3).jpg hacia .\output\img1 - copia (3).jpg
+2024-11-02 15:42:45,869 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4) - copia.jpg hacia .\output\img1 - copia (4) - copia.jpg
+2024-11-02 15:42:45,941 - _logger - INFO - Imagen procesada .\img1 - copia (4).jpg -> .\output\img1 - copia (4).jpg
+2024-11-02 15:42:45,948 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4).jpg hacia .\output\img1 - copia (4).jpg
+2024-11-02 15:42:46,359 - _logger - INFO - Imagen procesada .\img1 - copia (5) - copia.jpg -> .\output\img1 - copia (5) - copia.jpg
+2024-11-02 15:42:46,410 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5) - copia.jpg hacia .\output\img1 - copia (5) - copia.jpg
+2024-11-02 15:42:46,516 - _logger - INFO - Imagen procesada .\img1 - copia (6) - copia.jpg -> .\output\img1 - copia (6) - copia.jpg
+2024-11-02 15:42:46,528 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (6) - copia.jpg hacia .\output\img1 - copia (6) - copia.jpg
+2024-11-02 15:42:46,545 - _logger - INFO - Imagen procesada .\img1 - copia (5).jpg -> .\output\img1 - copia (5).jpg
+2024-11-02 15:42:46,556 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5).jpg hacia .\output\img1 - copia (5).jpg
+2024-11-02 15:42:46,588 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2) - copia.jpg -> .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:46,599 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2) - copia.jpg hacia .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:47,053 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2).jpg -> .\output\img1 - copia - copia (2).jpg
+2024-11-02 15:42:47,070 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2).jpg hacia .\output\img1 - copia - copia (2).jpg
+2024-11-02 15:42:47,201 - _logger - INFO - Imagen procesada .\img1 - copia - copia - copia.jpg -> .\output\img1 - copia - copia - copia.jpg
+2024-11-02 15:42:47,202 - _logger - INFO - Imagen procesada .\img1 - copia - copia (3).jpg -> .\output\img1 - copia - copia (3).jpg
+2024-11-02 15:42:47,209 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia - copia.jpg hacia .\output\img1 - copia - copia - copia.jpg
+2024-11-02 15:42:47,226 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (3).jpg hacia .\output\img1 - copia - copia (3).jpg
+2024-11-02 15:42:47,247 - _logger - INFO - Imagen procesada .\img1 - copia - copia.jpg -> .\output\img1 - copia - copia.jpg
+2024-11-02 15:42:47,273 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia.jpg hacia .\output\img1 - copia - copia.jpg
+2024-11-02 15:42:47,672 - _logger - INFO - Imagen procesada .\img1 - copia.jpg -> .\output\img1 - copia.jpg
+2024-11-02 15:42:47,680 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia.jpg hacia .\output\img1 - copia.jpg
+2024-11-02 15:42:47,841 - _logger - INFO - Imagen procesada .\img1.jpg -> .\output\img1.jpg
+2024-11-02 15:42:47,850 - _logger - INFO - Imagen procesada correctamente en .\img1.jpg hacia .\output\img1.jpg
+2024-11-02 15:42:48,230 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia.jpg -> .\output\img2 - copia (2) - copia.jpg
+2024-11-02 15:42:48,244 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia.jpg hacia .\output\img2 - copia (2) - copia.jpg
+2024-11-02 15:42:48,302 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia - copia.jpg -> .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:48,356 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia - copia.jpg hacia .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:48,723 - _logger - INFO - Imagen procesada .\img2 - copia (2).jpg -> .\output\img2 - copia (2).jpg
+2024-11-02 15:42:48,746 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2).jpg hacia .\output\img2 - copia (2).jpg
+2024-11-02 15:42:48,933 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia - copia.jpg -> .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:48,948 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia - copia.jpg hacia .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:49,318 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia.jpg -> .\output\img2 - copia (3) - copia.jpg
+2024-11-02 15:42:49,348 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia.jpg hacia .\output\img2 - copia (3) - copia.jpg
+2024-11-02 15:42:49,389 - _logger - INFO - Imagen procesada .\img2 - copia (3).jpg -> .\output\img2 - copia (3).jpg
+2024-11-02 15:42:49,425 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3).jpg hacia .\output\img2 - copia (3).jpg
+2024-11-02 15:42:49,748 - _logger - INFO - Imagen procesada .\img2 - copia (4) - copia.jpg -> .\output\img2 - copia (4) - copia.jpg
+2024-11-02 15:42:49,777 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4) - copia.jpg hacia .\output\img2 - copia (4) - copia.jpg
+2024-11-02 15:42:49,937 - _logger - INFO - Imagen procesada .\img2 - copia (4).jpg -> .\output\img2 - copia (4).jpg
+2024-11-02 15:42:49,963 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4).jpg hacia .\output\img2 - copia (4).jpg
+2024-11-02 15:42:50,354 - _logger - INFO - Imagen procesada .\img2 - copia (5) - copia.jpg -> .\output\img2 - copia (5) - copia.jpg
+2024-11-02 15:42:50,366 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5) - copia.jpg hacia .\output\img2 - copia (5) - copia.jpg
+2024-11-02 15:42:50,413 - _logger - INFO - Imagen procesada .\img2 - copia (5).jpg -> .\output\img2 - copia (5).jpg
+2024-11-02 15:42:50,472 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5).jpg hacia .\output\img2 - copia (5).jpg
+2024-11-02 15:42:50,785 - _logger - INFO - Imagen procesada .\img2 - copia (6) - copia.jpg -> .\output\img2 - copia (6) - copia.jpg
+2024-11-02 15:42:50,811 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (6) - copia.jpg hacia .\output\img2 - copia (6) - copia.jpg
+2024-11-02 15:42:50,988 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2) - copia.jpg -> .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:51,014 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2) - copia.jpg hacia .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:51,408 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2).jpg -> .\output\img2 - copia - copia (2).jpg
+2024-11-02 15:42:51,433 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2).jpg hacia .\output\img2 - copia - copia (2).jpg
+2024-11-02 15:42:51,525 - _logger - INFO - Imagen procesada .\img2 - copia - copia (3).jpg -> .\output\img2 - copia - copia (3).jpg
+2024-11-02 15:42:51,543 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (3).jpg hacia .\output\img2 - copia - copia (3).jpg
+2024-11-02 15:42:51,852 - _logger - INFO - Imagen procesada .\img2 - copia - copia - copia.jpg -> .\output\img2 - copia - copia - copia.jpg
+2024-11-02 15:42:51,865 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia - copia.jpg hacia .\output\img2 - copia - copia - copia.jpg
+2024-11-02 15:42:52,111 - _logger - INFO - Imagen procesada .\img2 - copia - copia.jpg -> .\output\img2 - copia - copia.jpg
+2024-11-02 15:42:52,125 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia.jpg hacia .\output\img2 - copia - copia.jpg
+2024-11-02 15:42:52,261 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia - copia.jpg -> .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:52,270 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia - copia.jpg hacia .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 15:42:52,535 - _logger - INFO - Imagen procesada .\img2 - copia.jpg -> .\output\img2 - copia.jpg
+2024-11-02 15:42:52,566 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia.jpg -> .\output\img3 - copia (2) - copia.jpg
+2024-11-02 15:42:52,567 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia.jpg hacia .\output\img2 - copia.jpg
+2024-11-02 15:42:52,573 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia.jpg hacia .\output\img3 - copia (2) - copia.jpg
+2024-11-02 15:42:52,627 - _logger - INFO - Imagen procesada .\img2.jpg -> .\output\img2.jpg
+2024-11-02 15:42:52,641 - _logger - INFO - Imagen procesada correctamente en .\img2.jpg hacia .\output\img2.jpg
+2024-11-02 15:42:52,721 - _logger - INFO - Imagen procesada .\img3 - copia (2).jpg -> .\output\img3 - copia (2).jpg
+2024-11-02 15:42:52,727 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2).jpg hacia .\output\img3 - copia (2).jpg
+2024-11-02 15:42:52,973 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia.jpg -> .\output\img3 - copia (3) - copia.jpg
+2024-11-02 15:42:52,985 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia.jpg hacia .\output\img3 - copia (3) - copia.jpg
+2024-11-02 15:42:53,002 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia - copia.jpg -> .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:53,032 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia - copia.jpg hacia .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 15:42:53,096 - _logger - INFO - Imagen procesada .\img3 - copia (3).jpg -> .\output\img3 - copia (3).jpg
+2024-11-02 15:42:53,102 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3).jpg hacia .\output\img3 - copia (3).jpg
+2024-11-02 15:42:53,161 - _logger - INFO - Imagen procesada .\img3 - copia (4) - copia.jpg -> .\output\img3 - copia (4) - copia.jpg
+2024-11-02 15:42:53,169 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (4) - copia.jpg hacia .\output\img3 - copia (4) - copia.jpg
+2024-11-02 15:42:53,416 - _logger - INFO - Imagen procesada .\img3 - copia (4).jpg -> .\output\img3 - copia (4).jpg
+2024-11-02 15:42:53,452 - _logger - INFO - Imagen procesada .\img3 - copia (5) - copia.jpg -> .\output\img3 - copia (5) - copia.jpg
+pg
+2024-11-02 15:42:53,468 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5) - copia.jpg hacia .\output\img3 - copia (5) - copia.jpg
+2024-11-02 15:42:53,538 - _logger - INFO - Imagen procesada .\img3 - copia (5).jpg -> .\output\img3 - copia (5).jpg
+2024-11-02 15:42:53,543 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5).jpg hacia .\output\img3 - copia (5).jpg
+2024-11-02 15:42:53,613 - _logger - INFO - Imagen procesada .\img3 - copia (6) - copia.jpg -> .\output\img3 - copia (6) - copia.jpg
+2024-11-02 15:42:53,625 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (6) - copia.jpg hacia .\output\img3 - copia (6) - copia.jpg
+2024-11-02 15:42:53,850 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2) - copia.jpg -> .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:53,858 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2) - copia.jpg hacia .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 15:42:53,869 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2).jpg -> .\output\img3 - copia - copia (2).jpg
+2024-11-02 15:42:53,880 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2).jpg hacia .\output\img3 - copia - copia (2).jpg
+2024-11-02 15:42:53,943 - _logger - INFO - Imagen procesada .\img3 - copia - copia (3).jpg -> .\output\img3 - copia - copia (3).jpg
+2024-11-02 15:42:53,948 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (3).jpg hacia .\output\img3 - copia - copia (3).jpg
+2024-11-02 15:42:54,009 - _logger - INFO - Imagen procesada .\img3 - copia - copia - copia.jpg -> .\output\img3 - copia - copia - copia.jpg
+2024-11-02 15:42:54,015 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia - copia.jpg hacia .\output\img3 - copia - copia - copia.jpg
+2024-11-02 15:42:54,239 - _logger - INFO - Imagen procesada .\img3 - copia - copia.jpg -> .\output\img3 - copia - copia.jpg
+2024-11-02 15:42:54,244 - _logger - INFO - Imagen procesada .\img3 - copia.jpg -> .\output\img3 - copia.jpg
+2024-11-02 15:42:54,244 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia.jpg hacia .\output\img3 - copia - copia.jpg
+2024-11-02 15:42:54,251 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia.jpg hacia .\output\img3 - copia.jpg
+2024-11-02 15:42:54,310 - _logger - INFO - Imagen procesada .\img3.jpg -> .\output\img3.jpg
+2024-11-02 15:42:54,317 - _logger - INFO - Imagen procesada correctamente en .\img3.jpg hacia .\output\img3.jpg
+2024-11-02 15:42:54,382 - _logger - INFO - ThreadPoolExecutor tardo 10.44 segundos.
+2024-11-02 15:42:54,382 - _logger - INFO - ProcessPoolExecutor tardo 10.29 segundos.
+2024-11-02 15:42:54,383 - _logger - INFO - Comparación completada. Threads: 10.44s vs Procesos: 10.29s
+2024-11-02 16:36:24,119 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia.jpg -> .\output\img1 - copia (2) - copia.jpg
+2024-11-02 16:36:24,120 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia - copia.jpg -> .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 16:36:24,129 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia.jpg hacia .\output\img1 - copia (2) - copia.jpg
+2024-11-02 16:36:24,140 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia - copia.jpg hacia .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 16:36:24,147 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia - copia.jpg -> .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 16:36:24,147 - _logger - INFO - Imagen procesada .\img1 - copia (2).jpg -> .\output\img1 - copia (2).jpg
+2024-11-02 16:36:24,158 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia - copia.jpg hacia .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 16:36:24,178 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2).jpg hacia .\output\img1 - copia (2).jpg
+2024-11-02 16:36:24,747 - _logger - INFO - Imagen procesada .\img1 - copia (3).jpg -> .\output\img1 - copia (3).jpg
+2024-11-02 16:36:24,754 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3).jpg hacia .\output\img1 - copia (3).jpg
+2024-11-02 16:36:24,755 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia.jpg -> .\output\img1 - copia (3) - copia.jpg
+2024-11-02 16:36:24,757 - _logger - INFO - Imagen procesada .\img1 - copia (4) - copia.jpg -> .\output\img1 - copia (4) - copia.jpg
+2024-11-02 16:36:24,767 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia.jpg hacia .\output\img1 - copia (3) - copia.jpg
+2024-11-02 16:36:24,768 - _logger - INFO - Imagen procesada .\img1 - copia (4).jpg -> .\output\img1 - copia (4).jpg
+2024-11-02 16:36:24,777 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4) - copia.jpg hacia .\output\img1 - copia (4) - copia.jpg
+2024-11-02 16:36:24,791 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4).jpg hacia .\output\img1 - copia (4).jpg
+2024-11-02 16:36:25,366 - _logger - INFO - Imagen procesada .\img1 - copia (5) - copia.jpg -> .\output\img1 - copia (5) - copia.jpg
+2024-11-02 16:36:25,376 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5) - copia.jpg hacia .\output\img1 - copia (5) - copia.jpg
+2024-11-02 16:36:25,376 - _logger - INFO - Imagen procesada .\img1 - copia (6) - copia.jpg -> .\output\img1 - copia (6) - copia.jpg
+2024-11-02 16:36:25,385 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (6) - copia.jpg hacia .\output\img1 - copia (6) - copia.jpg
+2024-11-02 16:36:25,391 - _logger - INFO - Imagen procesada .\img1 - copia (5).jpg -> .\output\img1 - copia (5).jpg
+2024-11-02 16:36:25,407 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5).jpg hacia .\output\img1 - copia (5).jpg
+2024-11-02 16:36:25,408 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2) - copia.jpg -> .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 16:36:25,425 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2) - copia.jpg hacia .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 16:36:25,983 - _logger - INFO - Imagen procesada .\img1 - copia - copia (3).jpg -> .\output\img1 - copia - copia (3).jpg
+2024-11-02 16:36:25,985 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2).jpg -> .\output\img1 - copia - copia (2).jpg
+2024-11-02 16:36:25,992 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (3).jpg hacia .\output\img1 - copia - copia (3).jpg
+2024-11-02 16:36:25,992 - _logger - INFO - Imagen procesada .\img1 - copia - copia - copia.jpg -> .\output\img1 - copia - copia - copia.jpg
+2024-11-02 16:36:26,000 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2).jpg hacia .\output\img1 - copia - copia (2).jpg
+2024-11-02 16:36:26,017 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia - copia.jpg hacia .\output\img1 - copia - copia - copia.jpg
+2024-11-02 16:36:26,017 - _logger - INFO - Imagen procesada .\img1 - copia - copia.jpg -> .\output\img1 - copia - copia.jpg
+2024-11-02 16:36:26,043 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia.jpg hacia .\output\img1 - copia - copia.jpg
+2024-11-02 16:36:26,534 - _logger - INFO - Imagen procesada .\img1.jpg -> .\output\img1.jpg
+2024-11-02 16:36:26,543 - _logger - INFO - Imagen procesada correctamente en .\img1.jpg hacia .\output\img1.jpg
+2024-11-02 16:36:26,550 - _logger - INFO - Imagen procesada .\img1 - copia.jpg -> .\output\img1 - copia.jpg
+2024-11-02 16:36:26,562 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia.jpg hacia .\output\img1 - copia.jpg
+2024-11-02 16:36:26,865 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia - copia.jpg -> .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 16:36:26,877 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia - copia.jpg hacia .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 16:36:26,878 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia.jpg -> .\output\img2 - copia (2) - copia.jpg
+2024-11-02 16:36:26,894 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia.jpg hacia .\output\img2 - copia (2) - copia.jpg
+2024-11-02 16:36:27,388 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia - copia.jpg -> .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 16:36:27,403 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia - copia.jpg hacia .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 16:36:27,403 - _logger - INFO - Imagen procesada .\img2 - copia (2).jpg -> .\output\img2 - copia (2).jpg
+2024-11-02 16:36:27,426 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2).jpg hacia .\output\img2 - copia (2).jpg
+2024-11-02 16:36:27,747 - _logger - INFO - Imagen procesada .\img2 - copia (3).jpg -> .\output\img2 - copia (3).jpg
+2024-11-02 16:36:27,759 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia.jpg -> .\output\img2 - copia (3) - copia.jpg
+2024-11-02 16:36:27,762 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3).jpg hacia .\output\img2 - copia (3).jpg
+2024-11-02 16:36:27,776 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia.jpg hacia .\output\img2 - copia (3) - copia.jpg
+2024-11-02 16:36:28,266 - _logger - INFO - Imagen procesada .\img2 - copia (4) - copia.jpg -> .\output\img2 - copia (4) - copia.jpg
+2024-11-02 16:36:28,285 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4) - copia.jpg hacia .\output\img2 - copia (4) - copia.jpg
+2024-11-02 16:36:28,302 - _logger - INFO - Imagen procesada .\img2 - copia (4).jpg -> .\output\img2 - copia (4).jpg
+2024-11-02 16:36:28,321 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4).jpg hacia .\output\img2 - copia (4).jpg
+2024-11-02 16:36:28,615 - _logger - INFO - Imagen procesada .\img2 - copia (5).jpg -> .\output\img2 - copia (5).jpg
+2024-11-02 16:36:28,627 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5).jpg hacia .\output\img2 - copia (5).jpg
+2024-11-02 16:36:28,627 - _logger - INFO - Imagen procesada .\img2 - copia (5) - copia.jpg -> .\output\img2 - copia (5) - copia.jpg
+2024-11-02 16:36:28,647 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5) - copia.jpg hacia .\output\img2 - copia (5) - copia.jpg
+2024-11-02 16:36:29,153 - _logger - INFO - Imagen procesada .\img2 - copia (6) - copia.jpg -> .\output\img2 - copia (6) - copia.jpg
+2024-11-02 16:36:29,168 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (6) - copia.jpg hacia .\output\img2 - copia (6) - copia.jpg
+2024-11-02 16:36:29,182 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2) - copia.jpg -> .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 16:36:29,202 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2) - copia.jpg hacia .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 16:36:29,496 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2).jpg -> .\output\img2 - copia - copia (2).jpg
+2024-11-02 16:36:29,508 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2).jpg hacia .\output\img2 - copia - copia (2).jpg
+2024-11-02 16:36:29,509 - _logger - INFO - Imagen procesada .\img2 - copia - copia (3).jpg -> .\output\img2 - copia - copia (3).jpg
+2024-11-02 16:36:29,528 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (3).jpg hacia .\output\img2 - copia - copia (3).jpg
+2024-11-02 16:36:30,028 - _logger - INFO - Imagen procesada .\img2 - copia - copia - copia.jpg -> .\output\img2 - copia - copia - copia.jpg
+2024-11-02 16:36:30,046 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia - copia.jpg hacia .\output\img2 - copia - copia - copia.jpg
+2024-11-02 16:36:30,046 - _logger - INFO - Imagen procesada .\img2 - copia - copia.jpg -> .\output\img2 - copia - copia.jpg
+2024-11-02 16:36:30,065 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia.jpg hacia .\output\img2 - copia - copia.jpg
+2024-11-02 16:36:30,371 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia - copia.jpg -> .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 16:36:30,377 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia - copia.jpg hacia .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 16:36:30,377 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia.jpg -> .\output\img3 - copia (2) - copia.jpg
+2024-11-02 16:36:30,383 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia.jpg hacia .\output\img3 - copia (2) - copia.jpg
+2024-11-02 16:36:30,384 - _logger - INFO - Imagen procesada .\img2.jpg -> .\output\img2.jpg
+2024-11-02 16:36:30,403 - _logger - INFO - Imagen procesada correctamente en .\img2.jpg hacia .\output\img2.jpg
+2024-11-02 16:36:30,414 - _logger - INFO - Imagen procesada .\img2 - copia.jpg -> .\output\img2 - copia.jpg
+2024-11-02 16:36:30,466 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia.jpg hacia .\output\img2 - copia.jpg
+2024-11-02 16:36:30,765 - _logger - INFO - Imagen procesada .\img3 - copia (2).jpg -> .\output\img3 - copia (2).jpg
+2024-11-02 16:36:30,771 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2).jpg hacia .\output\img3 - copia (2).jpg
+2024-11-02 16:36:30,771 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia - copia.jpg -> .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 16:36:30,777 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia - copia.jpg hacia .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 16:36:30,807 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia.jpg -> .\output\img3 - copia (3) - copia.jpg
+2024-11-02 16:36:30,814 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia.jpg hacia .\output\img3 - copia (3) - copia.jpg
+2024-11-02 16:36:30,864 - _logger - INFO - Imagen procesada .\img3 - copia (3).jpg -> .\output\img3 - copia (3).jpg
+2024-11-02 16:36:30,869 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3).jpg hacia .\output\img3 - copia (3).jpg
+2024-11-02 16:36:31,101 - _logger - INFO - Imagen procesada .\img3 - copia (4).jpg -> .\output\img3 - copia (4).jpg
+2024-11-02 16:36:31,106 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (4).jpg hacia .\output\img3 - copia (4).jpg
+2024-11-02 16:36:31,116 - _logger - INFO - Imagen procesada .\img3 - copia (4) - copia.jpg -> .\output\img3 - copia (4) - copia.jpg
+2024-11-02 16:36:31,123 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (4) - copia.jpg hacia .\output\img3 - copia (4) - copia.jpg
+2024-11-02 16:36:31,152 - _logger - INFO - Imagen procesada .\img3 - copia (5) - copia.jpg -> .\output\img3 - copia (5) - copia.jpg
+2024-11-02 16:36:31,158 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5) - copia.jpg hacia .\output\img3 - copia (5) - copia.jpg
+2024-11-02 16:36:31,200 - _logger - INFO - Imagen procesada .\img3 - copia (5).jpg -> .\output\img3 - copia (5).jpg
+2024-11-02 16:36:31,205 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5).jpg hacia .\output\img3 - copia (5).jpg
+2024-11-02 16:36:31,441 - _logger - INFO - Imagen procesada .\img3 - copia (6) - copia.jpg -> .\output\img3 - copia (6) - copia.jpg
+2024-11-02 16:36:31,447 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (6) - copia.jpg hacia .\output\img3 - copia (6) - copia.jpg
+2024-11-02 16:36:31,466 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2) - copia.jpg -> .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 16:36:31,473 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2) - copia.jpg hacia .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 16:36:31,503 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2).jpg -> .\output\img3 - copia - copia (2).jpg
+2024-11-02 16:36:31,509 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2).jpg hacia .\output\img3 - copia - copia (2).jpg
+2024-11-02 16:36:31,556 - _logger - INFO - Imagen procesada .\img3 - copia - copia (3).jpg -> .\output\img3 - copia - copia (3).jpg
+2024-11-02 16:36:31,563 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (3).jpg hacia .\output\img3 - copia - copia (3).jpg
+2024-11-02 16:36:31,786 - _logger - INFO - Imagen procesada .\img3 - copia - copia - copia.jpg -> .\output\img3 - copia - copia - copia.jpg
+2024-11-02 16:36:31,792 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia - copia.jpg hacia .\output\img3 - copia - copia - copia.jpg
+2024-11-02 16:36:31,800 - _logger - INFO - Imagen procesada .\img3 - copia - copia.jpg -> .\output\img3 - copia - copia.jpg
+2024-11-02 16:36:31,805 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia.jpg hacia .\output\img3 - copia - copia.jpg
+2024-11-02 16:36:31,822 - _logger - INFO - Imagen procesada .\img3 - copia.jpg -> .\output\img3 - copia.jpg
+2024-11-02 16:36:31,827 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia.jpg hacia .\output\img3 - copia.jpg
+2024-11-02 16:36:31,881 - _logger - INFO - Imagen procesada .\img3.jpg -> .\output\img3.jpg
+2024-11-02 16:36:31,886 - _logger - INFO - Imagen procesada correctamente en .\img3.jpg hacia .\output\img3.jpg
+2024-11-02 16:36:32,620 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia - copia.jpg -> .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 16:36:32,627 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia - copia.jpg hacia .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 16:36:32,635 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia.jpg -> .\output\img1 - copia (2) - copia.jpg
+2024-11-02 16:36:32,646 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia.jpg hacia .\output\img1 - copia (2) - copia.jpg
+2024-11-02 16:36:32,650 - _logger - INFO - Imagen procesada .\img1 - copia (2).jpg -> .\output\img1 - copia (2).jpg
+2024-11-02 16:36:32,663 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2).jpg hacia .\output\img1 - copia (2).jpg
+2024-11-02 16:36:32,693 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia - copia.jpg -> .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 16:36:32,705 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia - copia.jpg hacia .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 16:36:33,175 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia.jpg -> .\output\img1 - copia (3) - copia.jpg
+2024-11-02 16:36:33,180 - _logger - INFO - Imagen procesada .\img1 - copia (3).jpg -> .\output\img1 - copia (3).jpg
+2024-11-02 16:36:33,181 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia.jpg hacia .\output\img1 - copia (3) - copia.jpg
+2024-11-02 16:36:33,186 - _logger - INFO - Imagen procesada .\img1 - copia (4) - copia.jpg -> .\output\img1 - copia (4) - copia.jpg
+2024-11-02 16:36:33,192 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3).jpg hacia .\output\img1 - copia (3).jpg
+2024-11-02 16:36:33,201 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4) - copia.jpg hacia .\output\img1 - copia (4) - copia.jpg
+2024-11-02 16:36:33,243 - _logger - INFO - Imagen procesada .\img1 - copia (4).jpg -> .\output\img1 - copia (4).jpg
+2024-11-02 16:36:33,253 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4).jpg hacia .\output\img1 - copia (4).jpg
+2024-11-02 16:36:33,714 - _logger - INFO - Imagen procesada .\img1 - copia (5) - copia.jpg -> .\output\img1 - copia (5) - copia.jpg
+2024-11-02 16:36:33,720 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5) - copia.jpg hacia .\output\img1 - copia (5) - copia.jpg
+2024-11-02 16:36:33,723 - _logger - INFO - Imagen procesada .\img1 - copia (5).jpg -> .\output\img1 - copia (5).jpg
+2024-11-02 16:36:33,740 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (5).jpg hacia .\output\img1 - copia (5).jpg
+2024-11-02 16:36:33,751 - _logger - INFO - Imagen procesada .\img1 - copia (6) - copia.jpg -> .\output\img1 - copia (6) - copia.jpg
+2024-11-02 16:36:33,761 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (6) - copia.jpg hacia .\output\img1 - copia (6) - copia.jpg
+2024-11-02 16:36:33,769 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2) - copia.jpg -> .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 16:36:33,779 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2) - copia.jpg hacia .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 16:36:34,264 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2).jpg -> .\output\img1 - copia - copia (2).jpg
+2024-11-02 16:36:34,270 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (2).jpg hacia .\output\img1 - copia - copia (2).jpg
+2024-11-02 16:36:34,282 - _logger - INFO - Imagen procesada .\img1 - copia - copia (3).jpg -> .\output\img1 - copia - copia (3).jpg
+2024-11-02 16:36:34,288 - _logger - INFO - Imagen procesada .\img1 - copia - copia - copia.jpg -> .\output\img1 - copia - copia - copia.jpg
+2024-11-02 16:36:34,291 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia (3).jpg hacia .\output\img1 - copia - copia (3).jpg
+2024-11-02 16:36:34,297 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia - copia.jpg hacia .\output\img1 - copia - copia - copia.jpg
+2024-11-02 16:36:34,302 - _logger - INFO - Imagen procesada .\img1 - copia - copia.jpg -> .\output\img1 - copia - copia.jpg
+2024-11-02 16:36:34,319 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia - copia.jpg hacia .\output\img1 - copia - copia.jpg
+2024-11-02 16:36:34,808 - _logger - INFO - Imagen procesada .\img1 - copia.jpg -> .\output\img1 - copia.jpg
+2024-11-02 16:36:34,817 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia.jpg hacia .\output\img1 - copia.jpg
+2024-11-02 16:36:34,822 - _logger - INFO - Imagen procesada .\img1.jpg -> .\output\img1.jpg
+2024-11-02 16:36:34,833 - _logger - INFO - Imagen procesada correctamente en .\img1.jpg hacia .\output\img1.jpg
+2024-11-02 16:36:35,289 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia - copia.jpg -> .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 16:36:35,290 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia.jpg -> .\output\img2 - copia (2) - copia.jpg
+2024-11-02 16:36:35,302 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia - copia.jpg hacia .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 16:36:35,303 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2) - copia.jpg hacia .\output\img2 - copia (2) - copia.jpg
+2024-11-02 16:36:35,655 - _logger - INFO - Imagen procesada .\img2 - copia (2).jpg -> .\output\img2 - copia (2).jpg
+2024-11-02 16:36:35,667 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (2).jpg hacia .\output\img2 - copia (2).jpg
+2024-11-02 16:36:35,688 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia - copia.jpg -> .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 16:36:35,704 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia - copia.jpg hacia .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 16:36:36,145 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia.jpg -> .\output\img2 - copia (3) - copia.jpg
+2024-11-02 16:36:36,164 - _logger - INFO - Imagen procesada .\img2 - copia (3).jpg -> .\output\img2 - copia (3).jpg
+2024-11-02 16:36:36,169 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3) - copia.jpg hacia .\output\img2 - copia (3) - copia.jpg
+2024-11-02 16:36:36,181 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (3).jpg hacia .\output\img2 - copia (3).jpg
+2024-11-02 16:36:36,510 - _logger - INFO - Imagen procesada .\img2 - copia (4) - copia.jpg -> .\output\img2 - copia (4) - copia.jpg
+2024-11-02 16:36:36,522 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4) - copia.jpg hacia .\output\img2 - copia (4) - copia.jpg
+2024-11-02 16:36:36,561 - _logger - INFO - Imagen procesada .\img2 - copia (4).jpg -> .\output\img2 - copia (4).jpg
+2024-11-02 16:36:36,577 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (4).jpg hacia .\output\img2 - copia (4).jpg
+2024-11-02 16:36:37,007 - _logger - INFO - Imagen procesada .\img2 - copia (5) - copia.jpg -> .\output\img2 - copia (5) - copia.jpg
+2024-11-02 16:36:37,020 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5) - copia.jpg hacia .\output\img2 - copia (5) - copia.jpg
+2024-11-02 16:36:37,042 - _logger - INFO - Imagen procesada .\img2 - copia (5).jpg -> .\output\img2 - copia (5).jpg
+2024-11-02 16:36:37,061 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (5).jpg hacia .\output\img2 - copia (5).jpg
+2024-11-02 16:36:37,385 - _logger - INFO - Imagen procesada .\img2 - copia (6) - copia.jpg -> .\output\img2 - copia (6) - copia.jpg
+2024-11-02 16:36:37,396 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia (6) - copia.jpg hacia .\output\img2 - copia (6) - copia.jpg
+2024-11-02 16:36:37,419 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2) - copia.jpg -> .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 16:36:37,441 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2) - copia.jpg hacia .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 16:36:37,879 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2).jpg -> .\output\img2 - copia - copia (2).jpg
+2024-11-02 16:36:37,895 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (2).jpg hacia .\output\img2 - copia - copia (2).jpg
+2024-11-02 16:36:37,929 - _logger - INFO - Imagen procesada .\img2 - copia - copia (3).jpg -> .\output\img2 - copia - copia (3).jpg
+2024-11-02 16:36:37,947 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia (3).jpg hacia .\output\img2 - copia - copia (3).jpg
+2024-11-02 16:36:38,271 - _logger - INFO - Imagen procesada .\img2 - copia - copia - copia.jpg -> .\output\img2 - copia - copia - copia.jpg
+2024-11-02 16:36:38,282 - _logger - INFO - Imagen procesada .\img2 - copia - copia.jpg -> .\output\img2 - copia - copia.jpg
+2024-11-02 16:36:38,284 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia - copia.jpg hacia .\output\img2 - copia - copia - copia.jpg
+2024-11-02 16:36:38,312 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia - copia.jpg hacia .\output\img2 - copia - copia.jpg
+2024-11-02 16:36:38,607 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia - copia.jpg -> .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 16:36:38,612 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia - copia.jpg hacia .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 16:36:38,616 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia.jpg -> .\output\img3 - copia (2) - copia.jpg
+2024-11-02 16:36:38,626 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2) - copia.jpg hacia .\output\img3 - copia (2) - copia.jpg
+2024-11-02 16:36:38,753 - _logger - INFO - Imagen procesada .\img2 - copia.jpg -> .\output\img2 - copia.jpg
+2024-11-02 16:36:38,773 - _logger - INFO - Imagen procesada correctamente en .\img2 - copia.jpg hacia .\output\img2 - copia.jpg
+2024-11-02 16:36:38,805 - _logger - INFO - Imagen procesada .\img2.jpg -> .\output\img2.jpg
+2024-11-02 16:36:38,818 - _logger - INFO - Imagen procesada correctamente en .\img2.jpg hacia .\output\img2.jpg
+2024-11-02 16:36:38,948 - _logger - INFO - Imagen procesada .\img3 - copia (2).jpg -> .\output\img3 - copia (2).jpg
+2024-11-02 16:36:38,953 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia - copia.jpg -> .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 16:36:38,954 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (2).jpg hacia .\output\img3 - copia (2).jpg
+2024-11-02 16:36:38,969 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia - copia.jpg hacia .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 16:36:39,115 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia.jpg -> .\output\img3 - copia (3) - copia.jpg
+2024-11-02 16:36:39,119 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3) - copia.jpg hacia .\output\img3 - copia (3) - copia.jpg
+2024-11-02 16:36:39,156 - _logger - INFO - Imagen procesada .\img3 - copia (3).jpg -> .\output\img3 - copia (3).jpg
+2024-11-02 16:36:39,164 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (3).jpg hacia .\output\img3 - copia (3).jpg
+2024-11-02 16:36:39,305 - _logger - INFO - Imagen procesada .\img3 - copia (4) - copia.jpg -> .\output\img3 - copia (4) - copia.jpg
+2024-11-02 16:36:39,310 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (4) - copia.jpg hacia .\output\img3 - copia (4) - copia.jpg
+2024-11-02 16:36:39,316 - _logger - INFO - Imagen procesada .\img3 - copia (4).jpg -> .\output\img3 - copia (4).jpg
+2024-11-02 16:36:39,328 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (4).jpg hacia .\output\img3 - copia (4).jpg
+2024-11-02 16:36:39,446 - _logger - INFO - Imagen procesada .\img3 - copia (5) - copia.jpg -> .\output\img3 - copia (5) - copia.jpg
+2024-11-02 16:36:39,450 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5) - copia.jpg hacia .\output\img3 - copia (5) - copia.jpg
+2024-11-02 16:36:39,497 - _logger - INFO - Imagen procesada .\img3 - copia (5).jpg -> .\output\img3 - copia (5).jpg
+2024-11-02 16:36:39,503 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (5).jpg hacia .\output\img3 - copia (5).jpg
+2024-11-02 16:36:39,655 - _logger - INFO - Imagen procesada .\img3 - copia (6) - copia.jpg -> .\output\img3 - copia (6) - copia.jpg
+2024-11-02 16:36:39,658 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2) - copia.jpg -> .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 16:36:39,661 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia (6) - copia.jpg hacia .\output\img3 - copia (6) - copia.jpg
+2024-11-02 16:36:39,675 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2) - copia.jpg hacia .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 16:36:39,782 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2).jpg -> .\output\img3 - copia - copia (2).jpg
+2024-11-02 16:36:39,790 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (2).jpg hacia .\output\img3 - copia - copia (2).jpg
+2024-11-02 16:36:39,851 - _logger - INFO - Imagen procesada .\img3 - copia - copia (3).jpg -> .\output\img3 - copia - copia (3).jpg
+2024-11-02 16:36:39,857 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia (3).jpg hacia .\output\img3 - copia - copia (3).jpg
+2024-11-02 16:36:40,007 - _logger - INFO - Imagen procesada .\img3 - copia - copia.jpg -> .\output\img3 - copia - copia.jpg
+2024-11-02 16:36:40,014 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia.jpg hacia .\output\img3 - copia - copia.jpg
+2024-11-02 16:36:40,009 - _logger - INFO - Imagen procesada .\img3 - copia - copia - copia.jpg -> .\output\img3 - copia - copia - copia.jpg
+2024-11-02 16:36:40,022 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia - copia - copia.jpg hacia .\output\img3 - copia - copia - copia.jpg
+2024-11-02 16:36:40,131 - _logger - INFO - Imagen procesada .\img3 - copia.jpg -> .\output\img3 - copia.jpg
+2024-11-02 16:36:40,136 - _logger - INFO - Imagen procesada correctamente en .\img3 - copia.jpg hacia .\output\img3 - copia.jpg
+2024-11-02 16:36:40,177 - _logger - INFO - Imagen procesada .\img3.jpg -> .\output\img3.jpg
+2024-11-02 16:36:40,183 - _logger - INFO - Imagen procesada correctamente en .\img3.jpg hacia .\output\img3.jpg
+2024-11-02 16:36:40,232 - _logger - INFO - ThreadPoolExecutor tardo 8.40 segundos.
+2024-11-02 16:36:40,233 - _logger - INFO - ProcessPoolExecutor tardo 8.35 segundos.
+2024-11-02 16:36:40,233 - _logger - INFO - Comparación completada. Threads: 8.40s vs Procesos: 8.35s
+2024-11-02 16:38:21,614 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia.jpg -> .\output\img1 - copia (2) - copia.jpg
+2024-11-02 16:38:21,622 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia.jpg hacia .\output\img1 - copia (2) - copia.jpg
+2024-11-02 16:38:21,623 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia - copia.jpg -> .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 16:38:21,632 - _logger - INFO - Imagen procesada .\img1 - copia (2) - copia - copia.jpg -> .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 16:38:21,641 - _logger - INFO - Imagen procesada .\img1 - copia (2).jpg -> .\output\img1 - copia (2).jpg
+2024-11-02 16:38:21,641 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia - copia.jpg hacia .\output\img1 - copia (3) - copia - copia.jpg
+2024-11-02 16:38:21,665 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2) - copia - copia.jpg hacia .\output\img1 - copia (2) - copia - copia.jpg
+2024-11-02 16:38:21,683 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (2).jpg hacia .\output\img1 - copia (2).jpg
+2024-11-02 16:38:22,177 - _logger - INFO - Imagen procesada .\img1 - copia (3).jpg -> .\output\img1 - copia (3).jpg
+2024-11-02 16:38:22,184 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3).jpg hacia .\output\img1 - copia (3).jpg
+2024-11-02 16:38:22,185 - _logger - INFO - Imagen procesada .\img1 - copia (4) - copia.jpg -> .\output\img1 - copia (4) - copia.jpg
+2024-11-02 16:38:22,191 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4) - copia.jpg hacia .\output\img1 - copia (4) - copia.jpg
+2024-11-02 16:38:22,198 - _logger - INFO - Imagen procesada .\img1 - copia (3) - copia.jpg -> .\output\img1 - copia (3) - copia.jpg
+2024-11-02 16:38:22,208 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (3) - copia.jpg hacia .\output\img1 - copia (3) - copia.jpg
+2024-11-02 16:38:22,217 - _logger - INFO - Imagen procesada .\img1 - copia (4).jpg -> .\output\img1 - copia (4).jpg
+2024-11-02 16:38:22,229 - _logger - INFO - Imagen procesada correctamente en .\img1 - copia (4).jpg hacia .\output\img1 - copia (4).jpg
+2024-11-02 16:38:22,715 - _logger - INFO - Imagen procesada .\img1 - copia (5).jpg -> .\output\img1 - copia (5).jpg
+2024-11-02 16:38:22,723 - _logger - INFO - Imagen procesada .\img1 - copia (5) - copia.jpg -> .\output\img1 - copia (5) - copia.jpg
+2024-11-02 16:38:22,746 - _logger - INFO - Imagen procesada .\img1 - copia (6) - copia.jpg -> .\output\img1 - copia (6) - copia.jpg
+2024-11-02 16:38:22,758 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2) - copia.jpg -> .\output\img1 - copia - copia (2) - copia.jpg
+2024-11-02 16:38:23,251 - _logger - INFO - Imagen procesada .\img1 - copia - copia (2).jpg -> .\output\img1 - copia - copia (2).jpg
+2024-11-02 16:38:23,281 - _logger - INFO - Imagen procesada .\img1 - copia - copia (3).jpg -> .\output\img1 - copia - copia (3).jpg
+2024-11-02 16:38:23,293 - _logger - INFO - Imagen procesada .\img1 - copia - copia - copia.jpg -> .\output\img1 - copia - copia - copia.jpg
+2024-11-02 16:38:23,303 - _logger - INFO - Imagen procesada .\img1 - copia - copia.jpg -> .\output\img1 - copia - copia.jpg
+2024-11-02 16:38:23,917 - _logger - INFO - Imagen procesada .\img1 - copia.jpg -> .\output\img1 - copia.jpg
+2024-11-02 16:38:24,011 - _logger - INFO - Imagen procesada .\img1.jpg -> .\output\img1.jpg
+2024-11-02 16:38:24,360 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia.jpg -> .\output\img2 - copia (2) - copia.jpg
+2024-11-02 16:38:24,361 - _logger - INFO - Imagen procesada .\img2 - copia (2) - copia - copia.jpg -> .\output\img2 - copia (2) - copia - copia.jpg
+2024-11-02 16:38:24,921 - _logger - INFO - Imagen procesada .\img2 - copia (2).jpg -> .\output\img2 - copia (2).jpg
+2024-11-02 16:38:24,973 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia - copia.jpg -> .\output\img2 - copia (3) - copia - copia.jpg
+2024-11-02 16:38:25,389 - _logger - INFO - Imagen procesada .\img2 - copia (3).jpg -> .\output\img2 - copia (3).jpg
+2024-11-02 16:38:25,441 - _logger - INFO - Imagen procesada .\img2 - copia (3) - copia.jpg -> .\output\img2 - copia (3) - copia.jpg
+2024-11-02 16:38:25,983 - _logger - INFO - Imagen procesada .\img2 - copia (4) - copia.jpg -> .\output\img2 - copia (4) - copia.jpg
+2024-11-02 16:38:26,041 - _logger - INFO - Imagen procesada .\img2 - copia (4).jpg -> .\output\img2 - copia (4).jpg
+2024-11-02 16:38:26,355 - _logger - INFO - Imagen procesada .\img2 - copia (5) - copia.jpg -> .\output\img2 - copia (5) - copia.jpg
+2024-11-02 16:38:26,386 - _logger - INFO - Imagen procesada .\img2 - copia (5).jpg -> .\output\img2 - copia (5).jpg
+2024-11-02 16:38:26,896 - _logger - INFO - Imagen procesada .\img2 - copia (6) - copia.jpg -> .\output\img2 - copia (6) - copia.jpg
+2024-11-02 16:38:26,913 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2) - copia.jpg -> .\output\img2 - copia - copia (2) - copia.jpg
+2024-11-02 16:38:27,245 - _logger - INFO - Imagen procesada .\img2 - copia - copia (2).jpg -> .\output\img2 - copia - copia (2).jpg
+2024-11-02 16:38:27,258 - _logger - INFO - Imagen procesada .\img2 - copia - copia (3).jpg -> .\output\img2 - copia - copia (3).jpg
+2024-11-02 16:38:27,807 - _logger - INFO - Imagen procesada .\img2 - copia - copia - copia.jpg -> .\output\img2 - copia - copia - copia.jpg
+2024-11-02 16:38:27,824 - _logger - INFO - Imagen procesada .\img2 - copia - copia.jpg -> .\output\img2 - copia - copia.jpg
+2024-11-02 16:38:28,237 - _logger - INFO - Imagen procesada .\img2 - copia.jpg -> .\output\img2 - copia.jpg
+2024-11-02 16:38:28,249 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia - copia.jpg -> .\output\img3 - copia (2) - copia - copia.jpg
+2024-11-02 16:38:28,250 - _logger - INFO - Imagen procesada .\img3 - copia (2) - copia.jpg -> .\output\img3 - copia (2) - copia.jpg
+2024-11-02 16:38:28,262 - _logger - INFO - Imagen procesada .\img2.jpg -> .\output\img2.jpg
+2024-11-02 16:38:28,584 - _logger - INFO - Imagen procesada .\img3 - copia (2).jpg -> .\output\img3 - copia (2).jpg
+2024-11-02 16:38:28,604 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia - copia.jpg -> .\output\img3 - copia (3) - copia - copia.jpg
+2024-11-02 16:38:28,610 - _logger - INFO - Imagen procesada .\img3 - copia (3) - copia.jpg -> .\output\img3 - copia (3) - copia.jpg
+2024-11-02 16:38:28,632 - _logger - INFO - Imagen procesada .\img3 - copia (3).jpg -> .\output\img3 - copia (3).jpg
+2024-11-02 16:38:29,044 - _logger - INFO - Imagen procesada .\img3 - copia (4) - copia.jpg -> .\output\img3 - copia (4) - copia.jpg
+2024-11-02 16:38:29,113 - _logger - INFO - Imagen procesada .\img3 - copia (5) - copia.jpg -> .\output\img3 - copia (5) - copia.jpg
+2024-11-02 16:38:29,121 - _logger - INFO - Imagen procesada .\img3 - copia (4).jpg -> .\output\img3 - copia (4).jpg
+2024-11-02 16:38:29,129 - _logger - INFO - Imagen procesada .\img3 - copia (5).jpg -> .\output\img3 - copia (5).jpg
+2024-11-02 16:38:29,441 - _logger - INFO - Imagen procesada .\img3 - copia (6) - copia.jpg -> .\output\img3 - copia (6) - copia.jpg
+2024-11-02 16:38:29,463 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2) - copia.jpg -> .\output\img3 - copia - copia (2) - copia.jpg
+2024-11-02 16:38:29,474 - _logger - INFO - Imagen procesada .\img3 - copia - copia (3).jpg -> .\output\img3 - copia - copia (3).jpg
+2024-11-02 16:38:29,483 - _logger - INFO - Imagen procesada .\img3 - copia - copia (2).jpg -> .\output\img3 - copia - copia (2).jpg
+2024-11-02 16:38:29,810 - _logger - INFO - Imagen procesada .\img3 - copia - copia - copia.jpg -> .\output\img3 - copia - copia - copia.jpg
+2024-11-02 16:38:29,820 - _logger - INFO - Imagen procesada .\img3 - copia - copia.jpg -> .\output\img3 - copia - copia.jpg
+2024-11-02 16:38:29,837 - _logger - INFO - Imagen procesada .\img3 - copia.jpg -> .\output\img3 - copia.jpg
+2024-11-02 16:38:29,850 - _logger - INFO - Imagen procesada .\img3.jpg -> .\output\img3.jpg
