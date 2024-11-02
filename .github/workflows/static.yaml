@@ -1,52 +1,38 @@
-name: Deploy Sphinx documentation to Pages
+name: Deploy Sphinx Documentation to GitHub Pages
 
 on:
   push:
-    branches: [main]
-
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+    branches:
+      - main  # Ejecuta el flujo de trabajo en cada push a la rama 'main'
 
 jobs:
-  pages:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-    - uses: actions/checkout@v2
 
-    - name: Setup Python
-      uses: actions/setup-python@v2
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
       with:
-        python-version: '3.x'
+        python-version: '3.*'
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt  # Asegúrate de que Sphinx y autodoc estén en requirements.txt
+        pip install sphinx-rtd-theme  # Instala el tema si lo usas
 
-    - name: Build documentation
+    - name: Build Sphinx documentation
       run: |
-        cd docs
-        make clean
-        make html
-
-    - name: Setup Pages
-      uses: actions/configure-pages@v2
-
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v1
-      with:
-        path: 'docs/build/html'
+        cd docs  # Cambia esto si tu carpeta de documentación tiene otro nombre
+        make html  # Compila la documentación en HTML
 
     - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v1
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs/_build/html  # Ruta donde se generaron los HTML de Sphinx
+        publish_branch: gh-pages
+        keep_files: true  # Mantiene los archivos anteriores en gh-pages (opcional)
