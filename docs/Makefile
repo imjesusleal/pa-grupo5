@@ -8,10 +8,6 @@ SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = source
 BUILDDIR      = build
 
-echo @$(SPHINXBUILD)
-echo $(SOURCEDIR)
-echo $(BUILDDIR)
-echo $(SPHINXOPTS)
 
 # Put it first so that "make" without argument is like "make help".
 help:
