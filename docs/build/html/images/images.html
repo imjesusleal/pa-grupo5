@@ -1,0 +1,326 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Images &mdash; documentación de tpo_grupo5 - 0.1.0</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+
+
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=ba61de6b"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/translations.js?v=f85f4cfb"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="next" title="Parser" href="../parser/index.html" />
+    <link rel="prev" title="Images" href="index.html" />
+</head>
+
+<body class="wy-body-for-nav">
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+
+
+          <a href="../index.html" class="icon icon-home">
+            tpo_grupo5
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contenido:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../main.html">Main</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../utils/index.html">Utils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../processor/index.html">Processor</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Images</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Images</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#src.images.images.IImages"><code class="docutils literal notranslate"><span class="pre">IImages</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#src.images.images.IImages.process"><code class="docutils literal notranslate"><span class="pre">IImages.process()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#src.images.images.IImages.resize"><code class="docutils literal notranslate"><span class="pre">IImages.resize()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#src.images.images.IImages.grayscale"><code class="docutils literal notranslate"><span class="pre">IImages.grayscale()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#src.images.images.IImages.save_image"><code class="docutils literal notranslate"><span class="pre">IImages.save_image()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#src.images.images.Images"><code class="docutils literal notranslate"><span class="pre">Images</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#src.images.images.Images.process"><code class="docutils literal notranslate"><span class="pre">Images.process()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#src.images.images.Images.resize"><code class="docutils literal notranslate"><span class="pre">Images.resize()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#src.images.images.Images.grayscale"><code class="docutils literal notranslate"><span class="pre">Images.grayscale()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#src.images.images.Images.save_image"><code class="docutils literal notranslate"><span class="pre">Images.save_image()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../parser/index.html">Parser</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">tpo_grupo5</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Images</a></li>
+      <li class="breadcrumb-item active">Images</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/images/images.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+
+  <section id="module-src.images.images">
+<span id="images"></span><h1>Images<a class="headerlink" href="#module-src.images.images" title="Link to this heading"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="src.images.images.IImages">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">src.images.images.</span></span><span class="sig-name descname"><span class="pre">IImages</span></span><a class="reference internal" href="../_modules/src/images/images.html#IImages"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#src.images.images.IImages" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ABC</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="src.images.images.IImages.process">
+<em class="property"><span class="pre">abstract</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">process</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">operation</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/src/images/images.html#IImages.process"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#src.images.images.IImages.process" title="Link to this definition"></a></dt>
+<dd><p>Procesa la imagen de acuerdo a la operación especificada.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>self</strong> (<em>IImage</em>) – La representacion interna de la instanciacion de la clase.</p></li>
+<li><p><strong>operation</strong> (<em>str</em>) – La operacion a realizarse</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>Devuelve la representacion en cadena de la direccion donde estan las
+imagenes procesadas.</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str | None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="src.images.images.IImages.resize">
+<em class="property"><span class="pre">abstract</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">resize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">imag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">size</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/src/images/images.html#IImages.resize"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#src.images.images.IImages.resize" title="Link to this definition"></a></dt>
+<dd><p>Redimensiona la imagen al tamaño especificado.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>self</strong> (<em>IImage</em>) – La representacion interna de la instanciacion de la clase.</p></li>
+<li><p><strong>image</strong> (<em>Image</em>) – La representacion de la imagen a ser procesada.</p></li>
+<li><p><strong>size</strong> (<em>tuple</em>) – Una tupla con el tamaño y la anchura para redimencionar la imagen en los ejes x,y.</p></li>
+<li><p><strong>imag</strong> (<em>list</em><em>[</em><em>str</em><em>]</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>Devuelve la imagen procesada.</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Image</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="src.images.images.IImages.grayscale">
+<em class="property"><span class="pre">abstract</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">grayscale</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">img</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/src/images/images.html#IImages.grayscale"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#src.images.images.IImages.grayscale" title="Link to this definition"></a></dt>
+<dd><p>Procesa y le cambia la escala de grises.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>self</strong> (<em>IImage</em>) – La representacion interna de la instanciacion de la clase.</p></li>
+<li><p><strong>image</strong> (<em>Image</em>) – La representacion de la imagen a ser procesada.</p></li>
+<li><p><strong>img</strong> (<em>&lt;module 'PIL.Image' from 'D:\\Tecnicatura\\Cuarto Cuatrimestre\\Programacion Aplicada\\TPO_GRUPO5\\.venv\\Lib\\site-packages\\PIL\\Image.py'&gt;</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>Devuelve la imagen procesada.</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Image</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="src.images.images.IImages.save_image">
+<em class="property"><span class="pre">abstract</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">save_image</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">img</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/src/images/images.html#IImages.save_image"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#src.images.images.IImages.save_image" title="Link to this definition"></a></dt>
+<dd><p>Guarda la imagen en el directorio de salida.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>self</strong> (<em>IImage</em>) – La representacion interna de la instanciacion de la clase.</p></li>
+<li><p><strong>image</strong> (<em>Image</em>) – La representacion de la imagen a ser procesada.</p></li>
+<li><p><strong>img</strong> (<em>&lt;module 'PIL.Image' from 'D:\\Tecnicatura\\Cuarto Cuatrimestre\\Programacion Aplicada\\TPO_GRUPO5\\.venv\\Lib\\site-packages\\PIL\\Image.py'&gt;</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>Devuelve la representacion en cadena de la direccion donde estan las
+imagenes procesadas.</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str | None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="src.images.images.Images">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">src.images.images.</span></span><span class="sig-name descname"><span class="pre">Images</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">image_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_dir</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/src/images/images.html#Images"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#src.images.images.Images" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#src.images.images.IImages" title="src.images.images.IImages"><code class="xref py py-class docutils literal notranslate"><span class="pre">IImages</span></code></a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>image_path</strong> (<em>str</em>)</p></li>
+<li><p><strong>output_dir</strong> (<em>str</em>)</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="src.images.images.Images.process">
+<span class="sig-name descname"><span class="pre">process</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">operation</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/src/images/images.html#Images.process"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#src.images.images.Images.process" title="Link to this definition"></a></dt>
+<dd><p>Procesa la imagen de acuerdo a la operación especificada.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>self</strong> (<em>IImage</em>) – La representacion interna de la instanciacion de la clase.</p></li>
+<li><p><strong>operation</strong> (<em>str</em>) – La operacion a realizarse</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>Devuelve la representacion en cadena de la direccion donde estan las
+imagenes procesadas.</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str | None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="src.images.images.Images.resize">
+<span class="sig-name descname"><span class="pre">resize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">img</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">(800,</span> <span class="pre">600)</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/src/images/images.html#Images.resize"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#src.images.images.Images.resize" title="Link to this definition"></a></dt>
+<dd><p>Redimensiona la imagen al tamaño especificado.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>self</strong> (<em>IImage</em>) – La representacion interna de la instanciacion de la clase.</p></li>
+<li><p><strong>image</strong> (<em>Image</em>) – La representacion de la imagen a ser procesada.</p></li>
+<li><p><strong>size</strong> (<em>tuple</em>) – Una tupla con el tamaño y la anchura para redimencionar la imagen en los ejes x,y.</p></li>
+<li><p><strong>img</strong> (<em>&lt;module 'PIL.Image' from 'D:\\Tecnicatura\\Cuarto Cuatrimestre\\Programacion Aplicada\\TPO_GRUPO5\\.venv\\Lib\\site-packages\\PIL\\Image.py'&gt;</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>Devuelve la imagen procesada.</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Image</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="src.images.images.Images.grayscale">
+<span class="sig-name descname"><span class="pre">grayscale</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">img</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/src/images/images.html#Images.grayscale"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#src.images.images.Images.grayscale" title="Link to this definition"></a></dt>
+<dd><p>Procesa y le cambia la escala de grises.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>self</strong> (<em>IImage</em>) – La representacion interna de la instanciacion de la clase.</p></li>
+<li><p><strong>image</strong> (<em>Image</em>) – La representacion de la imagen a ser procesada.</p></li>
+<li><p><strong>img</strong> (<em>&lt;module 'PIL.Image' from 'D:\\Tecnicatura\\Cuarto Cuatrimestre\\Programacion Aplicada\\TPO_GRUPO5\\.venv\\Lib\\site-packages\\PIL\\Image.py'&gt;</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>Devuelve la imagen procesada.</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Image</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="src.images.images.Images.save_image">
+<span class="sig-name descname"><span class="pre">save_image</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">img</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/src/images/images.html#Images.save_image"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#src.images.images.Images.save_image" title="Link to this definition"></a></dt>
+<dd><p>Guarda la imagen en el directorio de salida.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>self</strong> (<em>IImage</em>) – La representacion interna de la instanciacion de la clase.</p></li>
+<li><p><strong>image</strong> (<em>Image</em>) – La representacion de la imagen a ser procesada.</p></li>
+<li><p><strong>img</strong> (<em>&lt;module 'PIL.Image' from 'D:\\Tecnicatura\\Cuarto Cuatrimestre\\Programacion Aplicada\\TPO_GRUPO5\\.venv\\Lib\\site-packages\\PIL\\Image.py'&gt;</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>Devuelve la representacion en cadena de la direccion donde estan las
+imagenes procesadas.</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str | None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
+        <a href="index.html" class="btn btn-neutral float-left" title="Images" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="../parser/index.html" class="btn btn-neutral float-right" title="Parser" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor 2024, Sofia Arias Leal Jesus Paracare Jesus Benjumea Abraham Perez Leobaldo.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+</body>
+</html>
