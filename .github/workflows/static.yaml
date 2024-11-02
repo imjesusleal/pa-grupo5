@@ -18,6 +18,9 @@ concurrency:
 jobs:
   pages:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
     - uses: actions/checkout@v2
 
@@ -31,6 +34,13 @@ jobs:
         pip install -r requirements.txt
 
     - name: Build documentation
+      run: |
+        cd docs
+        make html
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v2
+
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v1
       with:
