@@ -1,5 +1,5 @@
 Images
-====
+=======
 
 .. automodule:: src.images.images
    :members:

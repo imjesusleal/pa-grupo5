@@ -45,6 +45,8 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../main.html">Main</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../utils/index.html">Utils</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../processor/index.html">Processor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../images/index.html">Images</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../parser/index.html">Parser</a></li>
 </ul>
 
         </div>
@@ -72,11 +74,12 @@
            <div itemprop="articleBody">
 
   <h1>Código fuente para src.images.images</h1><div class="highlight"><pre>
-<span></span><span class="kn">import</span> <span class="nn">logging</span>
-<span class="kn">import</span> <span class="nn">os</span>
+<span></span><span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">from</span> <span class="nn">abc</span> <span class="kn">import</span> <span class="n">ABC</span><span class="p">,</span> <span class="n">abstractmethod</span>
 
 <span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
+<span class="kn">from</span> <span class="nn">..utils.logger</span> <span class="kn">import</span> <span class="n">Logger</span>
+
 
 <div class="viewcode-block" id="IImages">
 <a class="viewcode-back" href="../../../images/images.html#src.images.images.IImages">[documentos]</a>
@@ -87,13 +90,13 @@
     <span class="nd">@abstractmethod</span>
     <span class="k">def</span> <span class="nf">process</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">operation</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span> <span class="o">|</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;Procesa la imagen de acuerdo a la operación especificada.</span>
-<span class="sd">        </span>
+
 <span class="sd">        Args:</span>
 <span class="sd">            self (IImage): La representacion interna de la instanciacion de la clase.</span>
 <span class="sd">            operation (str): La operacion a realizarse</span>
-<span class="sd">        </span>
+
 <span class="sd">        Returns:</span>
-<span class="sd">            str | None: Devuelve la representacion en cadena de la direccion donde estan las </span>
+<span class="sd">            str | None: Devuelve la representacion en cadena de la direccion donde estan las</span>
 <span class="sd">            imagenes procesadas.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">pass</span></div>
@@ -104,14 +107,14 @@
     <span class="nd">@abstractmethod</span>
     <span class="k">def</span> <span class="nf">resize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">imag</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">size</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">Image</span><span class="p">:</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;Redimensiona la imagen al tamaño especificado.</span>
-<span class="sd">        </span>
+
 <span class="sd">        Args:</span>
 <span class="sd">            self (IImage): La representacion interna de la instanciacion de la clase.</span>
 <span class="sd">            image (Image): La representacion de la imagen a ser procesada.</span>
 <span class="sd">            size (tuple): Una tupla con el tamaño y la anchura para redimencionar la imagen en los ejes x,y.</span>
 
 <span class="sd">        Returns:</span>
-<span class="sd">            Image: Devuelve la imagen procesada.    </span>
+<span class="sd">            Image: Devuelve la imagen procesada.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">pass</span></div>
 
@@ -128,7 +131,7 @@
 <span class="sd">            image (Image): La representacion de la imagen a ser procesada.</span>
 
 <span class="sd">        Returns:</span>
-<span class="sd">            Image: Devuelve la imagen procesada.  </span>
+<span class="sd">            Image: Devuelve la imagen procesada.</span>
 <span class="sd">        &quot;&quot;&quot;</span></div>
 
 
@@ -137,13 +140,13 @@
     <span class="nd">@abstractmethod</span>
     <span class="k">def</span> <span class="nf">save_image</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">img</span><span class="p">:</span> <span class="n">Image</span><span class="p">):</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;Guarda la imagen en el directorio de salida.</span>
-<span class="sd">        </span>
+
 <span class="sd">        Args:</span>
 <span class="sd">            self (IImage): La representacion interna de la instanciacion de la clase.</span>
 <span class="sd">            image (Image): La representacion de la imagen a ser procesada.</span>
-<span class="sd">        </span>
+
 <span class="sd">        Returns:</span>
-<span class="sd">            str | None: Devuelve la representacion en cadena de la direccion donde estan las </span>
+<span class="sd">            str | None: Devuelve la representacion en cadena de la direccion donde estan las</span>
 <span class="sd">            imagenes procesadas.</span>
 
 <span class="sd">        &quot;&quot;&quot;</span></div>
@@ -157,6 +160,7 @@
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">image_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">output_dir</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">image_path</span> <span class="o">=</span> <span class="n">image_path</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span> <span class="o">=</span> <span class="n">output_dir</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_logger</span> <span class="o">=</span> <span class="n">Logger</span><span class="o">.</span><span class="n">get_logger</span><span class="p">()</span>
 
 <div class="viewcode-block" id="Images.process">
 <a class="viewcode-back" href="../../../images/images.html#src.images.images.Images.process">[documentos]</a>
@@ -168,10 +172,10 @@
                 <span class="k">elif</span> <span class="n">operation</span> <span class="o">==</span> <span class="s2">&quot;grayscale&quot;</span><span class="p">:</span>
                     <span class="n">img</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">grayscale</span><span class="p">(</span><span class="n">img</span><span class="p">)</span>
                 <span class="n">output_path</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">save_image</span><span class="p">(</span><span class="n">img</span><span class="p">)</span>
-                <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Imagen procesada </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">image_path</span><span class="si">}</span><span class="s2"> -&gt; </span><span class="si">{</span><span class="n">output_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Imagen procesada </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">image_path</span><span class="si">}</span><span class="s2"> -&gt; </span><span class="si">{</span><span class="n">output_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
                 <span class="k">return</span> <span class="n">output_path</span>
         <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-            <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error en procesamiento </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">image_path</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error en procesamiento </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">image_path</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
             <span class="k">return</span> <span class="kc">None</span></div>
 
 

@@ -1,5 +1,5 @@
 Errors
-======
+==============
 
 .. automodule:: src.utils.errors
     :members:

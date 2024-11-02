@@ -1,5 +1,5 @@
-Processor
-====
+Parser
+=====================
 
 .. automodule:: src.parser.parser
    :members:

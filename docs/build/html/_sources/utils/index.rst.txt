@@ -1,5 +1,5 @@
 Utils
-=====
+================
 
 .. toctree::
    :maxdepth: 2
@@ -7,3 +7,4 @@ Utils
    path
    static_checker
    errors
+   logger

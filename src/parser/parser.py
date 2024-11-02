@@ -1,9 +1,11 @@
 import argparse
 import os
+import time
 from abc import ABC, abstractmethod
 
 from ..processor.processor import Processor
 from ..utils.errors import ErrorHandler
+from ..utils.logger import Logger
 from ..utils.path import Path
 
 
@@ -24,6 +26,7 @@ class Parser(IParser):
     def __init__(self):
         self.args = self.parse_args()
         self.__path: Path = Path()
+        self._logger = Logger.get_logger()
 
     def parse_args(self):
         parser = argparse.ArgumentParser(
@@ -41,7 +44,13 @@ class Parser(IParser):
             help="Operación a realizar en las imágenes.",
         )
         parser.add_argument(
-            "--threads", type=int, default=4, help="Número de hilos a utilizar."
+            "--mode",
+            choices=["threads", "procesos", "comparar"],
+            default="threads",
+            help="Elige cual es el modo de procesamiento: threads, procesos, o comparar rendimiento",
+        )
+        parser.add_argument(
+            "-c", type=int, default=4, help="Número de hilos o procesos."
         )
         parser.add_argument(
             "--check-dir",
@@ -56,7 +65,7 @@ class Parser(IParser):
             print(self.__path.path)
             if not self.__path.check_directory(self.args.dir_imagen):
                 with ErrorHandler(Exception) as e:
-                    e.raise_exception()
+                    self.logger.error(e.raise_exception())
 
         images = [
             os.path.join(self.args.dir_imagen, img)
@@ -68,6 +77,42 @@ class Parser(IParser):
             image_paths=images,
             output_dir=self.args.dir_salida,
             operation=self.args.operation,
-            num_threads=self.args.threads,
+            num_threads=self.args.c,
         )
-        processor.process_images()
+
+        match self.args.mode:
+            case "threads":
+                start_time = time.time()
+                processor.process_images()
+                elapsed_time = time.time() - start_time
+                self._logger.info(
+                    f"ThreadPoolExecutor tardo {elapsed_time:.2f} segundos."
+                )
+
+            case "procesos":
+                start_time = time.time()
+                processor.process_images_parallel()
+                elapsed_time = time.time() - start_time
+                self._logger.info(
+                    f"ProcessPoolExecutor tardo {elapsed_time:.2f} segundos."
+                )
+
+            case "comparar":
+                start_time = time.time()
+                processor.process_images()
+                thread_time = time.time() - start_time
+
+                start_time = time.time()
+                processor.process_images_parallel()
+                process_time = time.time() - start_time
+
+                self._logger.info(
+                    f"ThreadPoolExecutor tardo {thread_time:.2f} segundos."
+                )
+                self._logger.info(
+                    f"ProcessPoolExecutor tardo {process_time:.2f} segundos."
+                )
+                self._logger.info(
+                    "Comparación completada. "
+                    f"Threads: {thread_time:.2f}s vs Procesos: {process_time:.2f}s"
+                )

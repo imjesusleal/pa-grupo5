@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Processor &mdash; documentación de tpo_grupo5 - 0.1.0</title>
+  <title>Parser &mdash; documentación de tpo_grupo5 - 0.1.0</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
 
@@ -20,6 +20,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Índice" href="../genindex.html" />
     <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="prev" title="Parser" href="index.html" />
 </head>
 
 <body class="wy-body-for-nav">
@@ -42,10 +43,27 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contenido:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../main.html">Main</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../utils/index.html">Utils</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../processor/index.html">Processor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../images/index.html">Images</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Parser</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Parser</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#src.parser.parser.IParser"><code class="docutils literal notranslate"><span class="pre">IParser</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#src.parser.parser.IParser.parse_args"><code class="docutils literal notranslate"><span class="pre">IParser.parse_args()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#src.parser.parser.IParser.run"><code class="docutils literal notranslate"><span class="pre">IParser.run()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#src.parser.parser.Parser"><code class="docutils literal notranslate"><span class="pre">Parser</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#src.parser.parser.Parser.parse_args"><code class="docutils literal notranslate"><span class="pre">Parser.parse_args()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#src.parser.parser.Parser.run"><code class="docutils literal notranslate"><span class="pre">Parser.run()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
         </div>
@@ -62,7 +80,8 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Processor</li>
+          <li class="breadcrumb-item"><a href="index.html">Parser</a></li>
+      <li class="breadcrumb-item active">Parser</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/parser/parser.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
       </li>
@@ -72,9 +91,9 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
 
-  <section id="processor">
-<h1>Processor<a class="headerlink" href="#processor" title="Link to this heading"></a></h1>
-<dl class="py class" id="module-src.parser.parser">
+  <section id="module-src.parser.parser">
+<span id="parser"></span><h1>Parser<a class="headerlink" href="#module-src.parser.parser" title="Link to this heading"></a></h1>
+<dl class="py class">
 <dt class="sig sig-object py" id="src.parser.parser.IParser">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">src.parser.parser.</span></span><span class="sig-name descname"><span class="pre">IParser</span></span><a class="reference internal" href="../_modules/src/parser/parser.html#IParser"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#src.parser.parser.IParser" title="Link to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ABC</span></code></p>
@@ -120,7 +139,9 @@
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
+        <a href="index.html" class="btn btn-neutral float-left" title="Parser" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+    </div>
 
   <hr/>
 

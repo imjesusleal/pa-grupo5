@@ -45,6 +45,8 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../main.html">Main</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../utils/index.html">Utils</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../processor/index.html">Processor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../images/index.html">Images</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../parser/index.html">Parser</a></li>
 </ul>
 
         </div>
@@ -72,23 +74,39 @@
            <div itemprop="articleBody">
 
   <h1>Código fuente para src.processor.processor</h1><div class="highlight"><pre>
-<span></span><span class="kn">import</span> <span class="nn">logging</span>
-<span class="kn">import</span> <span class="nn">os</span>
+<span></span><span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">from</span> <span class="nn">abc</span> <span class="kn">import</span> <span class="n">ABC</span><span class="p">,</span> <span class="n">abstractmethod</span>
-<span class="kn">from</span> <span class="nn">concurrent.futures</span> <span class="kn">import</span> <span class="n">ThreadPoolExecutor</span><span class="p">,</span> <span class="n">as_completed</span>
+<span class="kn">from</span> <span class="nn">concurrent.futures</span> <span class="kn">import</span> <span class="n">ThreadPoolExecutor</span><span class="p">,</span> <span class="n">ProcessPoolExecutor</span><span class="p">,</span> <span class="n">as_completed</span>
+
 <span class="kn">from</span> <span class="nn">..images.images</span> <span class="kn">import</span> <span class="n">Images</span>
+<span class="kn">from</span> <span class="nn">..utils.logger</span> <span class="kn">import</span> <span class="n">Logger</span>
+<span class="kn">from</span> <span class="nn">..utils.static_checker</span> <span class="kn">import</span> <span class="n">static_validator</span>
 
 
 <div class="viewcode-block" id="IProcessor">
 <a class="viewcode-back" href="../../../processor/processor.html#src.processor.processor.IProcessor">[documentos]</a>
 <span class="k">class</span> <span class="nc">IProcessor</span><span class="p">(</span><span class="n">ABC</span><span class="p">):</span>
 
+
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Interfaz que maneja el procesamiento concurrente y paralelo de imagenes.</span>
+<span class="sd">        Es la encargada de crear una piscina de hilos y procesos de manera segura.</span>
+
+<span class="sd">        Attributes:</span>
+<span class="sd">            self: representacion interna de la instanciacion de la interfaz</span>
+<span class="sd">            image_path (list[str]): una lista con las imagenes a procesar.</span>
+<span class="sd">            output_dir (str): la representacion en cadena del directorio de salida</span>
+<span class="sd">            operation (str): la operacion a aplicar al procesamiento de la imagen</span>
+<span class="sd">            num_threads (int): numero de hilos o procesos a utilizar para el procesamiento.            </span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
 <div class="viewcode-block" id="IProcessor.process_single_image">
 <a class="viewcode-back" href="../../../processor/processor.html#src.processor.processor.IProcessor.process_single_image">[documentos]</a>
     <span class="nd">@abstractmethod</span>
     <span class="k">def</span> <span class="nf">process_single_image</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">img_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;Procesa una sola imagen utilizando la clase Images.</span>
-<span class="sd">        </span>
+
 <span class="sd">        Args:</span>
 <span class="sd">            self (IProcessor): La representacion interna de la instanciacion de la clase.</span>
 <span class="sd">            img_path(str): La representacion en cadena de la ruta del filesystem.</span>
@@ -104,6 +122,14 @@
     <span class="k">def</span> <span class="nf">process_images</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;Maneja el procesamiento concurrente de las imágenes.&quot;&quot;&quot;</span>
         <span class="k">pass</span></div>
+
+
+<div class="viewcode-block" id="IProcessor.process_images_parallel">
+<a class="viewcode-back" href="../../../processor/processor.html#src.processor.processor.IProcessor.process_images_parallel">[documentos]</a>
+    <span class="nd">@abstractmethod</span>
+    <span class="k">def</span> <span class="nf">process_images_parallel</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Maneja el procesamiento paralelo de imagenes&quot;&quot;&quot;</span>
+        <span class="k">pass</span>    </div>
 </div>
 
 
@@ -111,14 +137,16 @@
 <div class="viewcode-block" id="Processor">
 <a class="viewcode-back" href="../../../processor/processor.html#src.processor.processor.Processor">[documentos]</a>
 <span class="k">class</span> <span class="nc">Processor</span><span class="p">(</span><span class="n">IProcessor</span><span class="p">):</span>
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">image_paths</span><span class="p">,</span> <span class="n">output_dir</span><span class="p">,</span> <span class="n">operation</span><span class="p">,</span> <span class="n">num_threads</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">image_paths</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">output_dir</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">operation</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">num_threads</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">image_paths</span> <span class="o">=</span> <span class="n">image_paths</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span> <span class="o">=</span> <span class="n">output_dir</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">operation</span> <span class="o">=</span> <span class="n">operation</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">num_threads</span> <span class="o">=</span> <span class="n">num_threads</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_logger</span> <span class="o">=</span> <span class="n">Logger</span><span class="o">.</span><span class="n">get_logger</span><span class="p">()</span>
 
 <div class="viewcode-block" id="Processor.process_single_image">
 <a class="viewcode-back" href="../../../processor/processor.html#src.processor.processor.Processor.process_single_image">[documentos]</a>
+    <span class="nd">@static_validator</span>
     <span class="k">def</span> <span class="nf">process_single_image</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">img_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
         <span class="n">image_processor</span> <span class="o">=</span> <span class="n">Images</span><span class="p">(</span><span class="n">img_path</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">image_processor</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">operation</span><span class="p">)</span></div>
@@ -128,7 +156,6 @@
 <a class="viewcode-back" href="../../../processor/processor.html#src.processor.processor.Processor.process_images">[documentos]</a>
     <span class="k">def</span> <span class="nf">process_images</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;Procesa las imágenes en paralelo utilizando concurrencia.&quot;&quot;&quot;</span>
-        <span class="c1"># Crea el directorio de salida si no existe</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span><span class="p">):</span>
             <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span><span class="p">)</span>
 
@@ -143,13 +170,35 @@
                 <span class="k">try</span><span class="p">:</span>
                     <span class="n">result</span> <span class="o">=</span> <span class="n">future</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
                     <span class="k">if</span> <span class="n">result</span><span class="p">:</span>
-                        <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Successfully processed </span><span class="si">{</span><span class="n">image_path</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">result</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">_logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Imagen procesada correctamente en </span><span class="si">{</span><span class="n">image_path</span><span class="si">}</span><span class="s2"> hacia </span><span class="si">{</span><span class="n">result</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
                     <span class="k">else</span><span class="p">:</span>
-                        <span class="n">logging</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Processing failed for </span><span class="si">{</span><span class="n">image_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">_logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Procesamiento de imagen fallido para </span><span class="si">{</span><span class="n">image_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
                 <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
-                    <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">image_path</span><span class="si">}</span><span class="s2"> generated an exception: </span><span class="si">{</span><span class="n">exc</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span></div>
-</div>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">_logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">image_path</span><span class="si">}</span><span class="s2"> se genero una excepcion: </span><span class="si">{</span><span class="n">exc</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span></div>
 
+
+<div class="viewcode-block" id="Processor.process_images_parallel">
+<a class="viewcode-back" href="../../../processor/processor.html#src.processor.processor.Processor.process_images_parallel">[documentos]</a>
+    <span class="k">def</span> <span class="nf">process_images_parallel</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span><span class="p">):</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span><span class="p">)</span>
+
+        <span class="k">with</span> <span class="n">ProcessPoolExecutor</span><span class="p">(</span><span class="n">max_workers</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">num_threads</span><span class="p">)</span> <span class="k">as</span> <span class="n">executor</span><span class="p">:</span>
+            <span class="n">futures</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="n">executor</span><span class="o">.</span><span class="n">submit</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">process_single_image</span><span class="p">,</span> <span class="n">img_path</span><span class="p">):</span> <span class="n">img_path</span>
+                <span class="k">for</span> <span class="n">img_path</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">image_paths</span>
+            <span class="p">}</span>
+            <span class="k">for</span> <span class="n">future</span> <span class="ow">in</span> <span class="n">as_completed</span><span class="p">(</span><span class="n">futures</span><span class="p">):</span>
+                <span class="n">image_path</span> <span class="o">=</span> <span class="n">futures</span><span class="p">[</span><span class="n">future</span><span class="p">]</span>
+                <span class="k">try</span><span class="p">:</span>
+                    <span class="n">result</span> <span class="o">=</span> <span class="n">future</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+                    <span class="k">if</span> <span class="n">result</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">_logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Imagen procesada correctamente en </span><span class="si">{</span><span class="n">image_path</span><span class="si">}</span><span class="s2"> hacia </span><span class="si">{</span><span class="n">result</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">_logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Procesamiento de imagen fallido para </span><span class="si">{</span><span class="n">image_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">_logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">image_path</span><span class="si">}</span><span class="s2"> se generó una excepción: </span><span class="si">{</span><span class="n">exc</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span></div>
+</div>
 
 </pre></div>
 

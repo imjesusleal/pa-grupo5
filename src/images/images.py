@@ -1,8 +1,9 @@
-import logging
 import os
 from abc import ABC, abstractmethod
 
 from PIL import Image
+
+from ..utils.logger import Logger
 
 
 class IImages(ABC):
@@ -67,6 +68,7 @@ class Images(IImages):
     def __init__(self, image_path: str, output_dir: str):
         self.image_path = image_path
         self.output_dir = output_dir
+        self._logger = Logger.get_logger()
 
     def process(self, operation: str) -> str | None:
         try:
@@ -76,10 +78,12 @@ class Images(IImages):
                 elif operation == "grayscale":
                     img = self.grayscale(img)
                 output_path = self.save_image(img)
-                logging.info(f"Imagen procesada {self.image_path} -> {output_path}")
+                self._logger.info(
+                    f"Imagen procesada {self.image_path} -> {output_path}"
+                )
                 return output_path
         except Exception as e:
-            logging.error(f"Error en procesamiento {self.image_path}: {e}")
+            self._logger.error(f"Error en procesamiento {self.image_path}: {e}")
             return None
 
     def resize(self, img: Image, size=(800, 600)) -> Image:
