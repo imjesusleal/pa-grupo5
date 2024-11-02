@@ -1,8 +1,7 @@
-import os
 import sys
 
-for x in os.walk("../../src"):
-    sys.path.insert(0, x[0])
+sys.path.insert(0, "../src")
+
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
