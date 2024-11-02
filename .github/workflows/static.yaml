@@ -24,12 +24,11 @@ jobs:
           pip install -r requirements.txt
           pip install sphinx
 
-      - name: Configure PYTHONPATH and build documentation
+      - name: Set PYTHONPATH and build documentation
         working-directory: docs/source
-        env:
-          PYTHONPATH: ${{ github.workspace }}/src  # Ruta completa de 'src' como PYTHONPATH
         run: |
-          sphinx-build -b html . _build/html  # Ejecutar directamente Sphinx
+          export PYTHONPATH="${GITHUB_WORKSPACE}/src"  # Asegura que 'src' esté en el PYTHONPATH
+          sphinx-build -b html -E . _build/html         # Fuerza la reconstrucción de la doc
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
