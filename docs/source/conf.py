@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, Path(__file__).parent.parent)
-
+print(Path(__file__).parent.parent)
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
