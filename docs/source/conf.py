@@ -1,8 +1,8 @@
+import os
 import sys
-from pathlib import Path
 
-sys.path.insert(0, Path(__file__).parent.parent)
-print(Path(__file__).parent.parent)
+for x in os.walk("../../src"):
+    sys.path.insert(0, x[0])
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
