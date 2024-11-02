@@ -16,7 +16,7 @@ jobs:
       - name: Copy documentation
         run: |
           mkdir -p docs/source/_build/html  # Crea el directorio de destino si no existe
-          cp -r build/html/* docs/source/_build/html/  # Copia el contenido de build/html a la carpeta de destino
+          cp -r docs/build/html/* docs/source/_build/html/  # Copia el contenido de build/html a la carpeta de destino
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
