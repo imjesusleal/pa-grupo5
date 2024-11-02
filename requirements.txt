@@ -42,6 +42,5 @@ sphinxcontrib-jquery==4.1
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==2.0.0
 sphinxcontrib-serializinghtml==2.0.0
--e git+ssh://git@github.com/imjesusleal/pa-grupo5.git@e3d90482940e6b2e6efb30898bef091bd05f6846#egg=TPO_GRUPO5
 urllib3==2.2.3
 virtualenv==20.26.6
