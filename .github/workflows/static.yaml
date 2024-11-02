@@ -36,7 +36,7 @@ jobs:
     - name: Build documentation
       run: |
         cd docs
-        pwd
+        make clean
         make html
 
     - name: Setup Pages
