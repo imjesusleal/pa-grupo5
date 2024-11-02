@@ -27,8 +27,8 @@ jobs:
         run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)/src" >> $GITHUB_ENV
 
       - name: Build Sphinx documentation
-        working-directory: docs/source
         run: |
+          cd docs
           make clean
           make html
 
